@@ -1,5 +1,5 @@
 {
-    "name": "steevan/sf23",
+    "name": "phpbenchmarks/symfony-2-3-benchmark",
     "license": "proprietary",
     "type": "project",
     "autoload": {
