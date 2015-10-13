@@ -1,1 +1,2 @@
-# symfony-2-6-benchmark
+2.6
+===
