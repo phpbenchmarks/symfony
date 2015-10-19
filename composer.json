@@ -1,5 +1,5 @@
 {
-    "name": "infodroid/sf-2-7",
+    "name": "phpbenchmarks/symfony-2-7-benchmark",
     "license": "proprietary",
     "type": "project",
     "autoload": {
