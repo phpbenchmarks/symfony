@@ -2,18 +2,29 @@
 
 function clearCacheAndLogs() {
     sudo rm -rf app/cache/*
+    [ "$?" != "0" ] && exit 1
     sudo chmod -R 777 app/cache
+    [ "$?" != "0" ] && exit 1
 
     sudo rm -rf app/logs/*
+    [ "$?" != "0" ] && exit 1
     sudo chmod -R 777 app/logs
+    [ "$?" != "0" ] && exit 1
 }
 
-clearCacheAndLogs
+function init() {
+    clearCacheAndLogs
 
-export SYMFONY_ENV=prod
-composer install --no-dev --optimize-autoloader
+    export SYMFONY_ENV=prod
+    composer install --no-dev --optimize-autoloader
+    [ "$?" != "0" ] && exit 1
 
-php app/console assets:install --symlink --env=prod
-php app/console assetic:dump --env=prod
+    php app/console assets:install --symlink --env=prod
+    [ "$?" != "0" ] && exit 1
+    php app/console assetic:dump --env=prod
+    [ "$?" != "0" ] && exit 1
 
-clearCacheAndLogs
+    clearCacheAndLogs
+
+    return 0
+}
