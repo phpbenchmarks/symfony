@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
 function clearCacheAndLogs() {
-    sudo rm -rf app/cache/*
+    sudo /bin/rm -rf app/cache/*
     [ "$?" != "0" ] && exit 1
-    sudo chmod -R 777 app/cache
+    sudo /bin/chmod -R 777 app/cache
     [ "$?" != "0" ] && exit 1
 
-    sudo rm -rf app/logs/*
+    sudo /bin/rm -rf app/logs/*
     [ "$?" != "0" ] && exit 1
-    sudo chmod -R 777 app/logs
+    sudo /bin/chmod -R 777 app/logs
     [ "$?" != "0" ] && exit 1
 }
 
