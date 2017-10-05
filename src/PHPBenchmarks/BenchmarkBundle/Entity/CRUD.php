@@ -5,7 +5,7 @@ namespace PHPBenchmarks\BenchmarkBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Table(name="bench_crud")
+ * @ORM\Table(name="crud")
  * @ORM\Entity
  */
 class CRUD
