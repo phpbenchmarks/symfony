@@ -21,8 +21,6 @@ function init() {
 
     php app/console assets:install --symlink --env=prod
     [ "$?" != "0" ] && exit 1
-    php app/console assetic:dump --env=prod
-    [ "$?" != "0" ] && exit 1
 
     clearCacheAndLogs
 
