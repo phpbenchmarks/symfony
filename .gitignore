@@ -9,4 +9,5 @@
 /vendor/
 /bin/
 !/bin/.gitkeep
+!/bin/console
 /.idea/
