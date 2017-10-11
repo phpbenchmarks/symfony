@@ -1,0 +1,3 @@
+benchmark:
+    resource: "@BenchmarkBundle/Resources/config/routing.yml"
+    prefix: /benchmark/
