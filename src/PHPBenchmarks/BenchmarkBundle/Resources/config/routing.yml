@@ -1,7 +1,0 @@
-helloworld:
-    path: /helloworld
-    defaults: { _controller: BenchmarkBundle:HelloWorld:helloworld }
-
-crud:
-    path: /crud
-    defaults: { _controller: BenchmarkBundle:CRUD:crud }

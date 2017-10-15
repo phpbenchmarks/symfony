@@ -1,17 +1,15 @@
 <?php
 
-namespace PHPBenchmarks\BenchmarkBundle\Controller;
+namespace PhpBenchmarks\Bundle\HelloWorldBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
 class HelloWorldController extends Controller
 {
-    /**
-     * @return Response
-     */
+    /** @return Response */
     public function helloworldAction()
     {
-        return $this->render('BenchmarkBundle::helloworld.html.twig');
+        return new Response('Hello World !');
     }
 }
