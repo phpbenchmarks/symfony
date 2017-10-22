@@ -13,10 +13,10 @@ function clearCacheAndLogs() {
 }
 
 function init() {
-    type=$1
-    if [ $type == "1" ]; then
+    local type=$1
+    if [ "$type" == "1" ]; then
         env="helloworld";
-    elif [ $type == "2" ]; then
+    elif [ "$type" == "2" ]; then
         env="news";
     else
         env="rest"
@@ -28,7 +28,7 @@ function init() {
     composer install --no-dev --optimize-autoloader
     [ "$?" != "0" ] && exit 1
 
-    if [ $env == "news" ]; then
+    if [ "$env" == "news" ]; then
         php app/console assets:install --symlink --env=$env
         [ "$?" != "0" ] && exit 1
         php app/console assetic:dump --env=$env
