@@ -20,8 +20,8 @@ You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmar
 
 Benchmark | Tool | PHP | Score
 --------- | ---- | --- | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | Apache Bench | 7.1 | 11261
-[News](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | Apache Bench | 7.1 | In progress
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | Apache Bench | 7.1 | 5978
+[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html#benchmark-hello-world) | Apache Bench | 7.1 | 11261
+[News](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html#benchmark-news) | Apache Bench | 7.1 | In progress
+[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html#benchmark-rest) | Apache Bench | 7.1 | 5978
 
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
