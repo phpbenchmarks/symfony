@@ -48,6 +48,7 @@ class UserNormalizer implements NormalizerInterface, SerializerAwareInterface
         return [
             'id' => $object->getId(),
             'login' => $object->getLogin(),
+            'createdAt' => $object->getCreatedAt()->format('Y-m-d H:i:s'),
             'translated' => $this->translator->trans('translated.1000', [], 'phpbenchmarks'),
             'comments' => $this->serializer->normalize($object->getComments(), $format, $context)
         ];
