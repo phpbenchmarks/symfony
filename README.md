@@ -18,8 +18,8 @@ You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmar
 
 ## Symfony 2.7.35
 
-Benchmark | Score
---------- | ------
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | 11261
-[News](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | In progress
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | 5978
+Benchmark | Tool | PHP | Score
+--------- | ---- | --- | -----
+[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | Apache Bench | 7.1 | 11261
+[News](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | Apache Bench | 7.1 | In progress
+[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.7.html) | Apache Bench | 7.1 | 5978
