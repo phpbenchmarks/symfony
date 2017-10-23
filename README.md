@@ -1,6 +1,8 @@
-![PHP Benchmarks](http://www.phpbenchmarks.com/images/logo_github.png)
-
-[www.phpbenchmarks.com](http://www.phpbenchmarks.com)
+<p align="center">
+  <img src="http://www.phpbenchmarks.com/images/logo_github.png">
+  <br>
+  <a href="http://www.phpbenchmarks.com" target="_blank">www.phpbenchmarks.com</a>
+</p>
 
 ## What is www.phpbenchmarks.com ?
 
