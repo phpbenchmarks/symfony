@@ -8,6 +8,12 @@ You will find lot of benchmarks for PHP frameworks, ORM and libs here.
 
 You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versions of your favorites PHP code.
 
+## What is this repository ?
+
+It's benchmark source code for Symfony 2.7.
+
+You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
+
 ## Symfony 2.7.35
 
 Benchmark | Score
