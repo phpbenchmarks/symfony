@@ -18,7 +18,7 @@
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "~2.0",
-        "phpbenchmarks/rest-benchmark-type": "dev-master"
+        "phpbenchmarks/symfony": "1.0.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
@@ -44,12 +44,6 @@
     "config": {
         "bin-dir": "bin"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/phpbenchmarks/rest-benchmark-type.git"
-        }
-    ],
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",

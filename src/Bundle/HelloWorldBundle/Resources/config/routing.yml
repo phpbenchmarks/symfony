@@ -1,3 +1,0 @@
-helloworld:
-    path: /benchmark/helloworld
-    defaults: { _controller: HelloWorldBundle:HelloWorld:helloworld }

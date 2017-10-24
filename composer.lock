@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc1ce98aad121f4f91163a2245f2cb35",
+    "content-hash": "95ed228f3b15f089255ec3c11262435f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -707,16 +707,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.5.11",
+            "version": "v2.5.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "249b737094f1e7cba4f0a8d19acf5be6cf3ed504"
+                "reference": "984535cadc609e9eef8c89414aa3568ee97aa79f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/249b737094f1e7cba4f0a8d19acf5be6cf3ed504",
-                "reference": "249b737094f1e7cba4f0a8d19acf5be6cf3ed504",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/984535cadc609e9eef8c89414aa3568ee97aa79f",
+                "reference": "984535cadc609e9eef8c89414aa3568ee97aa79f",
                 "shasum": ""
             },
             "require": {
@@ -727,11 +727,11 @@
                 "doctrine/instantiator": "^1.0.1",
                 "ext-pdo": "*",
                 "php": ">=5.4",
-                "symfony/console": "~2.5|~3.0"
+                "symfony/console": "~2.5|~3.0|~4.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0",
-                "symfony/yaml": "~2.3|~3.0"
+                "symfony/yaml": "~2.3|~3.0|~4.0"
             },
             "suggest": {
                 "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
@@ -779,7 +779,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2017-09-18T06:50:20+00:00"
+            "time": "2017-10-23T18:21:04+00:00"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -1086,36 +1086,63 @@
             "time": "2017-03-13T16:22:52+00:00"
         },
         {
-            "name": "phpbenchmarks/rest-benchmark-type",
-            "version": "dev-master",
+            "name": "phpbenchmarks/benchmark-rest-data",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phpbenchmarks/rest-benchmark-type.git",
-                "reference": "5b650a00bd89a56d1130618eda7eadeb88ed6ed3"
+                "url": "https://github.com/phpbenchmarks/benchmark-rest-data.git",
+                "reference": "f071a8ffcf9082f53ce1ee8b112aaacab2f32690"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpbenchmarks/rest-benchmark-type/zipball/5b650a00bd89a56d1130618eda7eadeb88ed6ed3",
-                "reference": "5b650a00bd89a56d1130618eda7eadeb88ed6ed3",
+                "url": "https://api.github.com/repos/phpbenchmarks/benchmark-rest-data/zipball/f071a8ffcf9082f53ce1ee8b112aaacab2f32690",
+                "reference": "f071a8ffcf9082f53ce1ee8b112aaacab2f32690",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9"
+                "php": ">=5.4.0"
             },
             "type": "project",
             "autoload": {
                 "psr-4": {
-                    "PhpBenchmarksRestType\\": ""
+                    "PhpBenchmarksRestData\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
-            "support": {
-                "source": "https://github.com/phpbenchmarks/rest-benchmark-type/tree/master",
-                "issues": "https://github.com/phpbenchmarks/rest-benchmark-type/issues"
+            "time": "2017-10-24T01:42:51+00:00"
+        },
+        {
+            "name": "phpbenchmarks/symfony",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpbenchmarks/symfony.git",
+                "reference": "ad761c90863021f76b603d3f9a81ff0067228b53"
             },
-            "time": "2017-10-14T19:48:47+00:00"
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpbenchmarks/symfony/zipball/ad761c90863021f76b603d3f9a81ff0067228b53",
+                "reference": "ad761c90863021f76b603d3f9a81ff0067228b53",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "phpbenchmarks/benchmark-rest-data": "1.0.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "PhpBenchmarksSymfony\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "time": "2017-10-24T01:44:32+00:00"
         },
         {
             "name": "psr/log",
@@ -1948,9 +1975,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "phpbenchmarks/rest-benchmark-type": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
