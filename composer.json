@@ -2,11 +2,6 @@
     "name": "phpbenchmarks/symfony-2-7-benchmark",
     "license": "proprietary",
     "type": "project",
-    "autoload": {
-        "psr-4": {
-            "PhpBenchmarks\\": "src/"
-        }
-    },
     "require": {
         "php": ">=5.3.9",
         "symfony/symfony": "2.7.*",
