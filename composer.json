@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-2-7-benchmark",
+    "name": "phpbenchmarks/symfony-2-7",
     "license": "proprietary",
     "type": "project",
     "require": {
