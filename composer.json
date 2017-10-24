@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-2-5-benchmark",
+    "name": "phpbenchmarks/symfony-2-5",
     "license": "MIT",
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
