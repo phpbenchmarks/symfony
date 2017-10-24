@@ -1,0 +1,10 @@
+imports:
+    - { resource: config.yml }
+
+framework:
+    router:
+        resource: "@RestBundle/Resources/config/routing.yml"
+    serializer:
+        enabled: true
+    translator:
+        enabled: true
