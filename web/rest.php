@@ -12,7 +12,7 @@ $loader = require_once __DIR__.'/../app/bootstrap.php.cache';
 require_once __DIR__ . '/../app/AppKernel.php';
 require_once __DIR__ . '/../app/AppCache.php';
 
-$kernel = new AppKernel('rest', true, [RestBundle::class]);
+$kernel = new AppKernel('rest', false, [RestBundle::class]);
 $kernel->loadClassCache();
 $kernel = new AppCache($kernel);
 
