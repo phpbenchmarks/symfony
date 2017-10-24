@@ -1,5 +1,5 @@
 {
-    "name": "infodroid/2.8",
+    "name": "phpbenchmarks/symfony-2-8",
     "license": "proprietary",
     "type": "project",
     "autoload": {
