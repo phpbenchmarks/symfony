@@ -5,18 +5,18 @@ parameters:
     locale: en
 
 framework:
-    secret:          "%secret%"
+    secret: "%secret%"
     router:
         strict_requirements: ~
-    form:            ~
+    form: ~
     csrf_protection: ~
-    validation:      { enable_annotations: true }
+    validation: { enable_annotations: true }
     templating:
         engines: ['twig']
     default_locale:  "%locale%"
-    trusted_hosts:   ~
+    trusted_hosts: ~
     trusted_proxies: ~
     session:
-        handler_id:  ~
-    fragments:       ~
+        handler_id: ~
+    fragments: ~
     http_method_override: true
