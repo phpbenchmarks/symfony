@@ -11,3 +11,4 @@
 !/bin/.gitkeep
 !/bin/console
 /.idea/
+composer.lock
