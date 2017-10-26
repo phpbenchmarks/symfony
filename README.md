@@ -14,7 +14,7 @@ You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versi
 
 It's benchmark source code for Symfony 2.3.
 
-You will not find final source code here, as it's in [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony/tree/1.0.0) dependency.
+You will not find final source code here, as it's in [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony/tree/2.0.0) dependency.
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
