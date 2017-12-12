@@ -29,9 +29,9 @@ function init() {
     [ "$?" != "0" ] && exit 1
 
     if [ "$env" == "news" ]; then
-        php app/console assets:install --symlink --env=$env
+        php bin/console assets:install --symlink --env=$env
         [ "$?" != "0" ] && exit 1
-        php app/console assetic:dump --env=$env
+        php bin/console assetic:dump --env=$env
         [ "$?" != "0" ] && exit 1
     fi
 
