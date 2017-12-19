@@ -18,12 +18,13 @@ You will not find final source code here, as it's in [phpbenchmarks/symfony](htt
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## Symfony 2.3.42
+## Symfony 2.3.42: 23,694
 
-Benchmark | Tool | PHP | Score
---------- | ---- | --- | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.3.html#benchmark-hello-world) | Apache Bench | 7.1 | In progress
-[News](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.3.html#benchmark-news) | Apache Bench | 7.1 | In progress
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.3.html#benchmark-rest) | Apache Bench | 7.1 | In progress
+Benchmark | PHP | Request | Rq/sec | Score
+--------- | --- | ------- | ------ | -----
+[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.3.html#benchmark-hello-world) | 7.2 | 1.3 ms | 777 | 14,143
+[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.3.html#benchmark-rest) | 7.2 | 1.9 ms | 525 | 9,551
+
+[See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.3.html)
 
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
