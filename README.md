@@ -22,8 +22,8 @@ You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmar
 
 Benchmark | PHP | Request | Rq/sec | Score
 --------- | --- | ------- | ------ | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.3.html#benchmark-hello-world) | 7.2 | 1.3 ms | 777 | 14,143
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.3.html#benchmark-rest) | 7.2 | 1.9 ms | 525 | 9,551
+[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.3.html#benchmark-hello-world) | 7.2 | 1.3 ms | 777 | 14,143
+[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.3.html#benchmark-rest) | 7.2 | 1.9 ms | 525 | 9,551
 
 [See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.3.html)
 
