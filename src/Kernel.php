@@ -63,6 +63,6 @@ class Kernel extends BaseKernel
 
     protected function getConfigDir(): string
     {
-        return $this->getProjectDir() . '/config/' . $this->getEnvironment();
+        return $this->getProjectDir() . '/config';
     }
 }
