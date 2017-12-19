@@ -18,12 +18,13 @@ You will not find final source code here, as it's in [phpbenchmarks/symfony](htt
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## Symfony 2.5.12
+## Symfony 2.5.12: 22,392
 
-Benchmark | Tool | PHP | Score
---------- | ---- | --- | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.5.html#benchmark-hello-world) | Apache Bench | 7.1 | In progress
-[News](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.5.html#benchmark-news) | Apache Bench | 7.1 | In progress
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.1/symfony-2.5.html#benchmark-rest) | Apache Bench | 7.1 | In progress
+Benchmark | PHP | Request | Rq/sec | Score
+--------- | --- | ------- | ------ | -----
+[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.5.html#benchmark-hello-world) | 7.2 | 1.4 ms | 737 | 13,269
+[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.5.html#benchmark-rest) | 7.2 | 2 ms | 508 | 9,123
+
+[See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.5.html)
 
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
