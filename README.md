@@ -25,4 +25,6 @@ Benchmark | PHP | Request | Rq/sec | Score
 [Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-hello-world) | 7.2 | 1.2 ms | 856 | 19,026
 [Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-rest) | 7.2 | 2.3 ms | 435 | 8,469
 
+[See all benchmark results](http://www.phpbenchmarks.com/fr/benchmark/apache-bench/php-7.2/symfony-4.0.html)
+
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
