@@ -12,7 +12,7 @@ You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versi
 
 ## What is this repository ?
 
-It's benchmark source code for Symfony 3.4.0-BETA1.
+It's benchmark source code for Symfony 3.4.0.
 
 You will not find final source code here, as it's in [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony/tree/1.0.0) dependency.
 
