@@ -4,7 +4,6 @@
 // I don't use APC cause bench will sometimes results in a lot of failures
 // /!\ /!\ /!\ /!\
 
-use PhpBenchmarksSymfony\Bundle\HelloWorldBundle\HelloWorldBundle;
 use Symfony\Component\HttpFoundation\Request;
 
 require __DIR__.'/../vendor/autoload.php';
@@ -12,7 +11,7 @@ if (PHP_VERSION_ID < 70000) {
     include_once __DIR__.'/../var/bootstrap.php.cache';
 }
 
-$kernel = new AppKernel('helloworld', false, [HelloWorldBundle::class]);
+$kernel = new AppKernel('prod', false);
 if (PHP_VERSION_ID < 70000) {
     $kernel->loadClassCache();
 }

@@ -12,18 +12,18 @@ You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versi
 
 ## What is this repository ?
 
-It's benchmark source code for Symfony 3.4.0.
+It's benchmark source code for Symfony 3.4.
 
 You will not find final source code here, as it's in [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony/tree/1.0.0) dependency.
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## Symfony 3.4.0: 14,277 
-
-Benchmark | PHP | Request | Rq/sec | Score
---------- | --- | ------- | ------ | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-3.4.html#benchmark-hello-world) | 7.2 | 1.8 ms | 542 | 9,160
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-3.4.html#benchmark-rest) | 7.2 | 3 ms | 335 | 5,117
+Each benchmark type have their own branch :
+[Hello World](https://github.com/phpbenchmarks/symfony-3-4/tree/helloworld),
+[Blog](https://github.com/phpbenchmarks/symfony-3-4/tree/blog),
+[REST Api](https://github.com/phpbenchmarks/symfony-3-4/tree/restapi),
+[Small overload](https://github.com/phpbenchmarks/symfony-3-4/tree/smalloverload)
+and [Big overload](https://github.com/phpbenchmarks/symfony-3-4/tree/bigoverload).
 
 [See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-3.4.html)
 
