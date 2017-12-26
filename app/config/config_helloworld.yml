@@ -1,6 +1,0 @@
-imports:
-    - { resource: config.yml }
-
-framework:
-    router:
-        resource: "@HelloWorldBundle/Resources/config/routing.yml"
