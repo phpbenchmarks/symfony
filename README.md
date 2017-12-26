@@ -18,12 +18,12 @@ You will not find final source code here, as it's in [phpbenchmarks/symfony](htt
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## Symfony 2.4.10: 23,174
-
-Benchmark | PHP | Request | Rq/sec | Score
---------- | --- | ------- | ------ | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.4.html#benchmark-hello-world) | 7.2 | 1.4 ms | 698 | 13,653
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.4.html#benchmark-rest) | 7.2 | 2 ms | 511 | 9,521
+Each benchmark type have their own branch :
+[Hello World](https://github.com/phpbenchmarks/symfony-2-4/tree/helloworld),
+[Blog](https://github.com/phpbenchmarks/symfony-2-4/tree/blog),
+[REST Api](https://github.com/phpbenchmarks/symfony-2-4/tree/restapi),
+[Small overload](https://github.com/phpbenchmarks/symfony-2-4/tree/smalloverload)
+and [Big overload](https://github.com/phpbenchmarks/symfony-2-4/tree/bigoverload).
 
 [See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.4.html)
 
