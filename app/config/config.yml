@@ -7,12 +7,11 @@ parameters:
 framework:
     secret: '%secret%'
     router:
-        resource: '%kernel.root_dir%/config/routing.yml'
+        resource: '@RestBundle/Resources/config/routing.yml'
         strict_requirements: ~
     form: ~
     csrf_protection: ~
     validation: { enable_annotations: true }
-    #serializer: { enable_annotations: true }
     templating:
         engines: ['twig']
     default_locale: '%locale%'
@@ -22,3 +21,7 @@ framework:
         handler_id: ~
     fragments: ~
     http_method_override: true
+    serializer:
+        enabled: true
+    translator:
+        enabled: true
