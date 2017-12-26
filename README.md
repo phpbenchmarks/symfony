@@ -14,16 +14,16 @@ You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versi
 
 It's benchmark source code for Symfony 2.3.
 
-You will not find final source code here, as it's in [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony/tree/2.0.0) dependency.
+You will not find final source code here, as it's in [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony/tree/1.0.0) dependency.
 
 You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
 
-## Symfony 2.3.42: 23,694
-
-Benchmark | PHP | Request | Rq/sec | Score
---------- | --- | ------- | ------ | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.3.html#benchmark-hello-world) | 7.2 | 1.3 ms | 777 | 14,143
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.3.html#benchmark-rest) | 7.2 | 1.9 ms | 525 | 9,551
+Each benchmark type have their own branch :
+[Hello World](https://github.com/phpbenchmarks/symfony-2-3/tree/helloworld),
+[Blog](https://github.com/phpbenchmarks/symfony-2-3/tree/blog),
+[REST Api](https://github.com/phpbenchmarks/symfony-2-3/tree/restapi),
+[Small overload](https://github.com/phpbenchmarks/symfony-2-3/tree/smalloverload)
+and [Big overload](https://github.com/phpbenchmarks/symfony-2-3/tree/bigoverload).
 
 [See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-2.3.html)
 
