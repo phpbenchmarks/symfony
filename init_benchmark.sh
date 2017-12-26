@@ -10,30 +10,17 @@ function clearCacheAndLogs() {
     [ "$?" != "0" ] && exit 1
     sudo /bin/chmod -R 777 app/logs
     [ "$?" != "0" ] && exit 1
+
+    php bin/console cache:warmup
 }
 
 function init() {
-    local type=$1
-    if [ "$type" == "1" ]; then
-        env="helloworld";
-    elif [ "$type" == "2" ]; then
-        env="news";
-    else
-        env="rest"
-    fi
+    export APP_ENV='prod'
 
     clearCacheAndLogs
 
-    export SYMFONY_ENV=$env
-    composer install --no-dev --optimize-autoloader
+    composer install --no-dev --classmap-authoritative
     [ "$?" != "0" ] && exit 1
-
-    if [ "$env" == "news" ]; then
-        php app/console assets:install --symlink --env=$env
-        [ "$?" != "0" ] && exit 1
-        php app/console assetic:dump --env=$env
-        [ "$?" != "0" ] && exit 1
-    fi
 
     clearCacheAndLogs
 
