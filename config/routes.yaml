@@ -1,2 +1,2 @@
 helloworld:
-    resource: ../vendor/phpbenchmarks/symfony/Bundle/HelloWorldBundle/Resources/config/routing.yml
+    resource: ../vendor/phpbenchmarks/symfony/Resources/config/routing.yml
