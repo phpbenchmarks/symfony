@@ -15,7 +15,7 @@ function clearCacheAndLogs() {
 }
 
 function init() {
-    export APP_ENV=$2
+    export APP_ENV='prod'
 
     clearCacheAndLogs
 
