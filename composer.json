@@ -4,7 +4,7 @@
     "type": "project",
     "require": {
         "php": "^7.1.3",
-        "phpbenchmarks/symfony": "1.0.0",
+        "phpbenchmarks/symfony": "3.1.0",
         "symfony/console": "^4.0",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.0",

@@ -2,5 +2,5 @@
 
 return [
     Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
-    PhpBenchmarksSymfony\Bundle\RestBundle\RestBundle::class => ['all' => true]
+    PhpBenchmarksSymfony\RestApiBundle\RestApiBundle::class => ['all' => true]
 ];

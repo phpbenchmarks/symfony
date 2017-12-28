@@ -25,16 +25,6 @@ Each benchmark type have their own branch :
 [Small overload](https://github.com/phpbenchmarks/symfony-4-0/tree/smalloverload)
 and [Big overload](https://github.com/phpbenchmarks/symfony-4-0/tree/bigoverload).
 
-## Symfony 4.0.0 : 27,495
-
-Benchmark | PHP | Request | Rq/sec | Score
---------- | --- | ------- | ------ | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-hello-world) | 7.2 | 1.2 ms | 856 | 19,026
-[Blog](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-blog) | 7.2 | In progress | In progress | In progress
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-rest) | 7.2 | 2.3 ms | 435 | 8,469
-[Small overload](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-small-overload) | 7.2 | In progress | In progress | In progress
-[Big overload](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-big-overload) | 7.2 | In progress | In progress | In progress
-
 [See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html)
 
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
