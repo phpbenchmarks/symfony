@@ -1,0 +1,7 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    php_errors:
+        log: true
+    session:
+        handler_id: ~
+    validation: {enabled: true}
