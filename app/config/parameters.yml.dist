@@ -1,0 +1,4 @@
+parameters:
+    database_user: root
+    database_password: ~
+    secret: ThisTokenIsNotSoSecretChangeIt
