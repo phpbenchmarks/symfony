@@ -1,0 +1,35 @@
+imports:
+    - { resource: parameters.yml }
+
+parameters:
+    locale: en
+
+framework:
+    secret: "%secret%"
+    router:
+        resource: "@SmallOverloadBundle/Resources/config/routing.yml"
+        strict_requirements: ~
+    form: ~
+    csrf_protection: ~
+    validation: { enable_annotations: true }
+    templating:
+        engines: ['twig']
+    default_locale:  "%locale%"
+    trusted_proxies: ~
+    session: ~
+    fragments: ~
+    http_method_override: true
+    translator: {enabled: true}
+
+doctrine:
+    dbal:
+        driver: pdo_mysql
+        host: 127.0.0.1
+        dbname: phpbenchmarks_small_overload
+        user: %database_user%
+        password: %database_password%
+        charset: UTF8
+    orm:
+        auto_generate_proxy_classes: %kernel.debug%
+        naming_strategy: doctrine.orm.naming_strategy.underscore
+        auto_mapping: true
