@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-3-4",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -12,7 +12,7 @@
         "sensio/framework-extra-bundle": "^5.0.0",
         "symfony/polyfill-apcu": "^1.0",
         "symfony/symfony": "3.4.*",
-        "phpbenchmarks/symfony": "1.0.0"
+        "phpbenchmarks/symfony-common": "3.1.0"
     },
     "scripts": {
         "symfony-scripts": [
