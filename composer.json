@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-2-8",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -16,7 +16,7 @@
         "symfony/symfony": "2.8.*",
         "doctrine/orm": "^2.4.8",
         "doctrine/doctrine-bundle": "~1.4",
-        "phpbenchmarks/symfony": "4.0.3"
+        "phpbenchmarks/symfony-common": "2.4.0"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0"
