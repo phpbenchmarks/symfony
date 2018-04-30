@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-3-1",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -15,7 +15,7 @@
         "sensio/distribution-bundle": "^5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "incenteev/composer-parameter-handler": "^2.0",
-        "phpbenchmarks/symfony": "1.0.0"
+        "phpbenchmarks/symfony-common": "3.1.0"
     },
     "scripts": {
         "symfony-scripts": [
