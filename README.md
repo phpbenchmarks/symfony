@@ -6,35 +6,22 @@
 
 ## What is www.phpbenchmarks.com ?
 
-You will find lot of benchmarks for PHP frameworks, ORM and libs here.
+You will find lot of benchmarks for PHP frameworks and template engines.
 
-You can compare results between Apache Bench and Siege, PHP 5.6 to 7.2 and versions of your favorites PHP code.
+You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.2.
 
 ## What is this repository ?
 
-It's benchmark source code for Symfony 4.0.
+It's benchmark common code for Symfony benchmarks.
 
-You will not find final source code here, as it's in [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony/tree/1.0.0) dependency.
+Switch branch to select your Symfony major version and benchmark you want to see.
 
-You can find how we benchmark it [here](http://www.phpbenchmarks.com/en/benchmark-protocol).
+See all Symfony benchmarked versions on [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony).
 
-Each benchmark type have their own branch :
-[Hello World](https://github.com/phpbenchmarks/symfony-4-0/tree/helloworld),
-[Blog](https://github.com/phpbenchmarks/symfony-4-0/tree/blog),
-[REST Api](https://github.com/phpbenchmarks/symfony-4-0/tree/restapi),
-[Small overload](https://github.com/phpbenchmarks/symfony-4-0/tree/smalloverload)
-and [Big overload](https://github.com/phpbenchmarks/symfony-4-0/tree/bigoverload).
+You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
 
-## Symfony 4.0.0 : 27,495
+## Benchmarks
 
-Benchmark | PHP | Request | Rq/sec | Score
---------- | --- | ------- | ------ | -----
-[Hello World](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-hello-world) | 7.2 | 1.2 ms | 856 | 19,026
-[Blog](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-blog) | 7.2 | In progress | In progress | In progress
-[Rest API](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-rest) | 7.2 | 2.3 ms | 435 | 8,469
-[Small overload](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-small-overload) | 7.2 | In progress | In progress | In progress
-[Big overload](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html#benchmark-big-overload) | 7.2 | In progress | In progress | In progress
-
-[See all benchmark results](http://www.phpbenchmarks.com/en/benchmark/apache-bench/php-7.2/symfony-4.0.html)
+You can find all Symfony benchmarks results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/symfony.html).
 
 Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
