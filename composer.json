@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-2-3",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "require": {
@@ -11,7 +11,7 @@
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "1.2.*",
         "twig/extensions": "1.0.*",
-        "phpbenchmarks/symfony": "4.0.3"
+        "phpbenchmarks/symfony-common": "2.4.0"
     },
     "scripts": {
         "post-install-cmd": [
