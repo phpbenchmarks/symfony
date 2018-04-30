@@ -1,11 +1,8 @@
 {
-    "name": "phpbenchmarks/symfony-3-2",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "autoload": {
-        "psr-4": {
-            "": "src/"
-        },
         "classmap": [
             "app/AppKernel.php",
             "app/AppCache.php"
@@ -18,7 +15,7 @@
         "sensio/framework-extra-bundle": "^3.0.2",
         "symfony/polyfill-apcu": "^1.0",
         "symfony/symfony": "3.2.*",
-        "phpbenchmarks/symfony": "1.0.0"
+        "phpbenchmarks/symfony-common": "3.1.0"
     },
     "scripts": {
         "symfony-scripts": [
