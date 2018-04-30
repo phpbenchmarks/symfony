@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-2-4",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "require": {
@@ -8,7 +8,7 @@
         "sensio/distribution-bundle": "~2.3",
         "sensio/framework-extra-bundle": "~3.0",
         "incenteev/composer-parameter-handler": "~2.0",
-        "phpbenchmarks/symfony": "1.0.0"
+        "phpbenchmarks/symfony-common": "2.3.0"
     },
     "scripts": {
         "post-install-cmd": [
