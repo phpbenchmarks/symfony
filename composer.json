@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-2-4",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "require": {
@@ -10,7 +10,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
-        "phpbenchmarks/symfony": "4.0.3"
+        "phpbenchmarks/symfony-common": "2.4.0"
     },
     "scripts": {
         "post-install-cmd": [
