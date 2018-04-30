@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-4-0",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "require": {
@@ -9,7 +9,7 @@
         "symfony/framework-bundle": "^4.0",
         "symfony/lts": "^4@dev",
         "symfony/yaml": "^4.0",
-        "phpbenchmarks/symfony": "1.0.1"
+        "phpbenchmarks/symfony-common": "4.1.0"
     },
     "config": {
         "preferred-install": {

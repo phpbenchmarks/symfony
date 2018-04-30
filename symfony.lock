@@ -17,6 +17,9 @@
     "phpbenchmarks/symfony": {
         "version": "1.0.0"
     },
+    "phpbenchmarks/symfony-common": {
+        "version": "dev-symfony_4_hello-world"
+    },
     "phpdocumentor/reflection-common": {
         "version": "1.0.1"
     },
