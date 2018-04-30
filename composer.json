@@ -1,5 +1,5 @@
 {
-    "name": "phpbenchmarks/symfony-3-3",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
     "type": "project",
     "autoload": {
@@ -17,7 +17,7 @@
         "doctrine/doctrine-bundle": "^1.6",
         "doctrine/orm": "^2.5",
         "twig/twig": "^1.0||^2.0",
-        "phpbenchmarks/symfony": "4.0.2"
+        "phpbenchmarks/symfony-common": "3.4.0"
     },
     "scripts": {
         "symfony-scripts": [
