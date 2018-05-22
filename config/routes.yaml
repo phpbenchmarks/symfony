@@ -1,3 +1,2 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+helloworld:
+    resource: ../vendor/phpbenchmarks/symfony-common/Resources/config/routing.yml

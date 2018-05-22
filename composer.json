@@ -9,12 +9,10 @@
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "4.1.0-BETA2",
         "symfony/lts": "^4@dev",
-        "symfony/yaml": "4.1.0-BETA2"
+        "symfony/yaml": "4.1.0-BETA2",
+        "phpbenchmarks/symfony-common": "4.1.0"
     },
     "minimum-stability": "beta",
-    "require-dev": {
-        "symfony/dotenv": "^4.0"
-    },
     "config": {
         "preferred-install": {
             "*": "dist"
@@ -26,11 +24,6 @@
             "App\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\Tests\\": "tests/"
-        }
-    },
     "replace": {
         "symfony/polyfill-iconv": "*",
         "symfony/polyfill-php71": "*",
@@ -39,8 +32,7 @@
     },
     "scripts": {
         "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install --symlink --relative %PUBLIC_DIR%": "symfony-cmd"
+            "cache:clear": "symfony-cmd"
         },
         "post-install-cmd": [
             "@auto-scripts"
