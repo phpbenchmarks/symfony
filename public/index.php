@@ -5,7 +5,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 require __DIR__.'/../vendor/autoload.php';
 
-$kernel = new Kernel('prod', true);
+$kernel = new Kernel('prod', false);
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);
 $response->send();
