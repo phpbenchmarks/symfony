@@ -1,4 +1,7 @@
 {
+    "phpbenchmarks/symfony-common": {
+        "version": "4.1.0"
+    },
     "psr/cache": {
         "version": "1.0.x-dev"
     },
@@ -70,6 +73,9 @@
     },
     "symfony/http-kernel": {
         "version": "4.2-dev"
+    },
+    "symfony/lts": {
+        "version": "4-dev"
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.10.0"
