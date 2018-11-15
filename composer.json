@@ -1,6 +1,7 @@
 {
-    "type": "project",
+    "name": "phpbenchmarks/symfony",
     "license": "proprietary",
+    "type": "project",
     "minimum-stability": "dev",
     "require": {
         "php": "^7.1.3",
@@ -9,10 +10,10 @@
         "symfony/console": "4.2.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.2.*",
-        "symfony/yaml": "4.2.*"
-    },
-    "require-dev": {
-        "symfony/dotenv": "4.2.*"
+        "symfony/yaml": "4.2.*",
+        "symfony/translation": "4.2.*",
+        "symfony/serializer-pack": "^1.0",
+        "phpbenchmarks/symfony-common": "4.3.1"
     },
     "config": {
         "preferred-install": {
@@ -23,11 +24,6 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\Tests\\": "tests/"
         }
     },
     "replace": {
