@@ -10,19 +10,19 @@ function clearCacheAndLogs() {
     [ "$?" != "0" ] && exit 1
     sudo /bin/chmod -R 777 var/log
     [ "$?" != "0" ] && exit 1
-
-    php bin/console cache:warmup
 }
 
 function init() {
     export APP_ENV='prod'
 
+    sudo /bin/rm -rf vendor/
     clearCacheAndLogs
 
     composer install --no-dev --classmap-authoritative
     [ "$?" != "0" ] && exit 1
 
     clearCacheAndLogs
+    php bin/console cache:warmup
 
     return 0
 }
