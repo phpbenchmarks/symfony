@@ -41,6 +41,9 @@
             "ref": "c1431086fec31f17fbcfe6d6d7e92059458facc1"
         }
     },
+    "doctrine/event-manager": {
+        "version": "v1.0.0"
+    },
     "doctrine/inflector": {
         "version": "v1.2.0"
     },
@@ -55,6 +58,12 @@
     },
     "doctrine/orm": {
         "version": "v2.6.0"
+    },
+    "doctrine/persistence": {
+        "version": "v1.1.0"
+    },
+    "doctrine/reflection": {
+        "version": "v1.0.0"
     },
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
@@ -112,6 +121,9 @@
             "version": "3.3",
             "ref": "9f94d3ea453cd8a3b95db7f82592d7344fe3a76a"
         }
+    },
+    "symfony/contracts": {
+        "version": "v1.0.2"
     },
     "symfony/debug": {
         "version": "v4.0.0"
@@ -178,6 +190,9 @@
     },
     "symfony/orm-pack": {
         "version": "v1.0.5"
+    },
+    "symfony/polyfill-ctype": {
+        "version": "v1.10.0"
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.6.0"
