@@ -6,22 +6,27 @@
 
 ## What is www.phpbenchmarks.com ?
 
-You will find lot of benchmarks for PHP frameworks and template engines.
+You will find lot of benchmarks for PHP frameworks and template engines on [phpbenchmarks.com](http://www.phpbenchmarks.com).
 
-You can compare results between Apache Bench and Siege, and PHP 5.6 to 7.3.
+Benchmarks results are available for Apache Bench and Siege, and PHP 5.6 to 7.3.
+
+Our benchmarking protocol is available on [benchmarking protocol page](http://www.phpbenchmarks.com/en/documentation/benchmarking-protocol).
 
 ## What is this repository ?
 
-It's benchmark common code for Symfony benchmarks.
+It contains Symfony installation `only`.
+To reuse code between minor versions, features for benchmarks are not coded in this repository
+but in [phpbenchmarks/symfony-common](https://github.com/phpbenchmarks/symfony-common) repository.
 
-Switch branch to select your Symfony major version and benchmark you want to see.
-
-See all Symfony benchmarked versions on [phpbenchmarks/symfony](https://github.com/phpbenchmarks/symfony).
-
-You can find how we benchmark on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark-protocol.html).
+Switch branch to select version and benchmark you want to see.
 
 ## Benchmarks
 
-You can find all Symfony benchmarks results on [phpbenchmarks.com](http://www.phpbenchmarks.com/en/benchmark/symfony.html).
+You can find Symfony 4.2 benchmarks results on
+[benchmarks results page](http://www.phpbenchmarks.com/en/benchmark/symfony/4.2).
 
-Scores are too low ? Do not hesitate to create a pull request, and ask a new benchmark !
+See all Symfony benchmarked versions on [select version page](http://www.phpbenchmarks.com/en/benchmark/symfony/version).
+
+## Community
+
+Go to [community page](http://www.phpbenchmarks.com/en/community) to see the Hall of fame, or download the benchmark kit to add your code!
