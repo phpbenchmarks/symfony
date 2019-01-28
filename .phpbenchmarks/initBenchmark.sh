@@ -13,6 +13,8 @@ function clearCacheAndLogs() {
 }
 
 function initBenchmark() {
+    # because of Symfony Flex bug (https://github.com/symfony/symfony/issues/29581), we need to remove vendor
+    rm -rf vendor/
     clearCacheAndLogs
 
     composer install --no-dev --classmap-authoritative
