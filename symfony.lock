@@ -1,4 +1,7 @@
 {
+    "phpbenchmarks/benchmark-kit": {
+        "version": "dev-master"
+    },
     "phpbenchmarks/symfony-common": {
         "version": "4.1.0"
     },
