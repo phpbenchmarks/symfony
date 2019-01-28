@@ -11,6 +11,9 @@
     "doctrine/lexer": {
         "version": "v1.0.1"
     },
+    "phpbenchmarks/benchmark-kit": {
+        "version": "1.0.3"
+    },
     "phpbenchmarks/benchmark-rest-data": {
         "version": "1.0.0"
     },

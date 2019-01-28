@@ -6,8 +6,8 @@ readonly PHPBENCHMARKS_PHP_7_1_ENABLED=true
 readonly PHPBENCHMARKS_PHP_7_2_ENABLED=true
 readonly PHPBENCHMARKS_PHP_7_3_ENABLED=true
 
-readonly PHPBENCHMARKS_NAME="Symfony"
-readonly PHPBENCHMARKS_SLUG="symfony"
+readonly PHPBENCHMARKS_COMPONENT_NAME="Symfony"
+readonly PHPBENCHMARKS_COMPONENT_SLUG="symfony"
 
 readonly PHPBENCHMARKS_BENCHMARK_URL="/benchmark/helloworld"
 

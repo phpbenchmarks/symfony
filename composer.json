@@ -8,7 +8,18 @@
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "4.0.15",
         "symfony/yaml": "4.0.15",
-        "phpbenchmarks/symfony-common": "4.1.1"
+        "symfony/routing": "4.0.15",
+        "symfony/debug": "4.0.15",
+        "symfony/http-foundation": "4.0.15",
+        "symfony/event-dispatcher": "4.0.15",
+        "symfony/http-kernel": "4.0.15",
+        "symfony/finder": "4.0.15",
+        "symfony/filesystem": "4.0.15",
+        "symfony/dependency-injection": "4.0.15",
+        "symfony/config": "4.0.15",
+        "symfony/cache": "4.0.15",
+        "phpbenchmarks/symfony-common": "4.1.1",
+        "phpbenchmarks/benchmark-kit": "~1.0.3"
     },
     "config": {
         "preferred-install": {
@@ -22,20 +33,7 @@
         }
     },
     "conflict": {
-        "symfony/symfony": "*",
-        "https://github.com/composer/composer/issues/7827": "0.0.0",
-        "https://github.com/symfony/symfony/issues/29581": "0.0.0",
-        "symfony/routing": ">=4.1.0",
-        "symfony/http-foundation": ">=4.1.0",
-        "symfony/event-dispatcher": ">=4.1.0",
-        "symfony/debug": ">=4.1.0",
-        "symfony/http-kernel": ">=4.1.0",
-        "symfony/finder": ">=4.1.0",
-        "symfony/filesystem": ">=4.1.0",
-        "symfony/dependency-injection": ">=4.1.0",
-        "symfony/config": ">=4.1.0",
-        "symfony/var-exporter": ">=4.1.0",
-        "symfony/cache": ">=4.1.0"
+        "symfony/symfony": "*"
     },
     "extra": {
         "symfony": {
