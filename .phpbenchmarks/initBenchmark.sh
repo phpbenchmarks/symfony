@@ -12,17 +12,15 @@ function clearCacheAndLogs() {
     [ "$?" != "0" ] && exit 1
 }
 
-function initBenchmark() {
-    # because of Symfony Flex bug (https://github.com/symfony/symfony/issues/29581), we need to remove vendor
-    rm -rf vendor/
-    clearCacheAndLogs
+# because of Symfony Flex bug (https://github.com/symfony/symfony/issues/29581), we need to remove vendor
+rm -rf vendor/
+clearCacheAndLogs
 
-    composer install --no-dev --classmap-authoritative
-    [ "$?" != "0" ] && exit 1
+composer install --no-dev --classmap-authoritative --ansi
+[ "$?" != "0" ] && exit 1
 
-    clearCacheAndLogs
-    php bin/console cache:warmup
-    [ "$?" != "0" ] && exit 1
+clearCacheAndLogs
+php bin/console cache:warmup
+[ "$?" != "0" ] && exit 1
 
-    return 0
-}
+exit 0

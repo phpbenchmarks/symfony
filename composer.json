@@ -21,8 +21,7 @@
         "symfony/config": "4.2.2",
         "symfony/var-exporter": "4.2.2",
         "symfony/cache": "4.2.2",
-        "phpbenchmarks/symfony-common": "4.1.1",
-        "phpbenchmarks/benchmark-kit": "~1.0.4"
+        "phpbenchmarks/symfony-common": "4.1.1"
     },
     "config": {
         "preferred-install": {
