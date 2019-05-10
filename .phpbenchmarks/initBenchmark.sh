@@ -20,7 +20,6 @@ composer install --no-dev --classmap-authoritative --ansi
 [ "$?" != "0" ] && exit 1
 
 clearCacheAndLogs
+
 php bin/console cache:warmup
 [ "$?" != "0" ] && exit 1
-
-exit 0
