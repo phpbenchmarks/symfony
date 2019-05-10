@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+use App\Kernel;
+use Symfony\Bundle\FrameworkBundle\Console\Application;
+use Symfony\Component\Console\Input\ArgvInput;
+
+set_time_limit(0);
+
+require dirname(__DIR__).'/vendor/autoload.php';
+
+$input = new ArgvInput();
+
+require dirname(__DIR__).'/src/.bootstrap.php';
+
+$kernel = new Kernel('prod', false);
+$application = new Application($kernel);
+$application->run($input);
