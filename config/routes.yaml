@@ -1,0 +1,2 @@
+rest:
+    resource: ../vendor/phpbenchmarks/symfony-common/Resources/config/routing.yml

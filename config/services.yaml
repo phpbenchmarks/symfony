@@ -1,0 +1,4 @@
+# useless for us, but needed by Symfony Flex
+
+parameters:
+    locale: 'en'
