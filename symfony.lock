@@ -1,30 +1,6 @@
 {
-    "doctrine/annotations": {
-        "version": "1.0",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "1.0",
-            "ref": "cb4152ebcadbe620ea2261da1a1c5a9b8cea7672"
-        }
-    },
-    "doctrine/lexer": {
-        "version": "1.0.x-dev"
-    },
-    "phpbenchmarks/benchmark-rest-data": {
-        "version": "1.0.0"
-    },
     "phpbenchmarks/symfony-common": {
-        "version": "4.3.0"
-    },
-    "phpdocumentor/reflection-common": {
-        "version": "1.0.1"
-    },
-    "phpdocumentor/reflection-docblock": {
-        "version": "4.3.0"
-    },
-    "phpdocumentor/type-resolver": {
-        "version": "0.4.0"
+        "version": "4.1.0"
     },
     "psr/cache": {
         "version": "1.0.x-dev"
@@ -62,9 +38,6 @@
     "symfony/dependency-injection": {
         "version": "4.2-dev"
     },
-    "symfony/dotenv": {
-        "version": "4.2-dev"
-    },
     "symfony/event-dispatcher": {
         "version": "4.2-dev"
     },
@@ -98,9 +71,6 @@
     "symfony/http-kernel": {
         "version": "4.2-dev"
     },
-    "symfony/inflector": {
-        "version": "4.2-dev"
-    },
     "symfony/lts": {
         "version": "4-dev"
     },
@@ -119,12 +89,6 @@
     "symfony/polyfill-php73": {
         "version": "v1.11.0"
     },
-    "symfony/property-access": {
-        "version": "4.2-dev"
-    },
-    "symfony/property-info": {
-        "version": "4.2-dev"
-    },
     "symfony/routing": {
         "version": "4.2",
         "recipe": {
@@ -134,28 +98,10 @@
             "ref": ""
         }
     },
-    "symfony/serializer": {
-        "version": "4.2-dev"
-    },
-    "symfony/serializer-pack": {
-        "version": "v1.0.1"
-    },
-    "symfony/translation": {
-        "version": "3.3",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "3.3",
-            "ref": "1fb02a6e1c8f3d4232cce485c9afa868d63b115a"
-        }
-    },
     "symfony/var-exporter": {
         "version": "4.2-dev"
     },
     "symfony/yaml": {
         "version": "4.2-dev"
-    },
-    "webmozart/assert": {
-        "version": "1.3-dev"
     }
 }
