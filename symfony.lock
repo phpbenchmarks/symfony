@@ -38,9 +38,6 @@
     "symfony/dependency-injection": {
         "version": "4.2-dev"
     },
-    "symfony/dotenv": {
-        "version": "4.2-dev"
-    },
     "symfony/event-dispatcher": {
         "version": "4.2-dev"
     },
