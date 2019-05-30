@@ -17,6 +17,9 @@
     "symfony/cache": {
         "version": "4.2-dev"
     },
+    "symfony/cache-contracts": {
+        "version": "v1.1.1"
+    },
     "symfony/config": {
         "version": "4.2-dev"
     },
@@ -29,17 +32,20 @@
             "ref": ""
         }
     },
-    "symfony/contracts": {
-        "version": "1.0-dev"
-    },
     "symfony/debug": {
         "version": "4.2-dev"
     },
     "symfony/dependency-injection": {
         "version": "4.2-dev"
     },
+    "symfony/dotenv": {
+        "version": "v4.3.0"
+    },
     "symfony/event-dispatcher": {
         "version": "4.2-dev"
+    },
+    "symfony/event-dispatcher-contracts": {
+        "version": "v1.1.1"
     },
     "symfony/filesystem": {
         "version": "4.2-dev"
@@ -97,6 +103,9 @@
             "version": "4.2",
             "ref": ""
         }
+    },
+    "symfony/service-contracts": {
+        "version": "v1.1.2"
     },
     "symfony/var-exporter": {
         "version": "4.2-dev"
