@@ -7,15 +7,14 @@
         "ext-ctype": "*",
         "ext-iconv": "*",
         "phpbenchmarks/symfony-common": "4.3.3",
-        "symfony/console": "4.3.0-BETA2",
-        "symfony/dotenv": "4.3.0-BETA2",
+        "symfony/console": "4.3.0",
+        "symfony/dotenv": "4.3.0",
         "symfony/flex": "^1.1",
-        "symfony/framework-bundle": "4.3.0-BETA2",
+        "symfony/framework-bundle": "4.3.0",
         "symfony/serializer-pack": "^1.0",
-        "symfony/translation": "4.3.0-BETA2",
-        "symfony/yaml": "4.3.0-BETA2"
+        "symfony/translation": "4.3.0",
+        "symfony/yaml": "4.3.0"
     },
-    "minimum-stability": "beta",
     "config": {
         "preferred-install": {
             "*": "dist"
@@ -41,7 +40,7 @@
     "extra": {
         "symfony": {
             "allow-contrib": false,
-            "require": "4.3.0-BETA2"
+            "require": "4.3.0"
         }
     }
 }
