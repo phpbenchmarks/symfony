@@ -14,11 +14,11 @@ Our benchmarking protocol is available on [benchmarking protocol page](http://ww
 
 ## What is this repository?
 
-It contains Symfony installation `only`.
-To reuse code between minor versions, features for benchmarks are not coded in this repository
-but in [phpbenchmarks/symfony-common](https://github.com/phpbenchmarks/symfony-common) repository.
+It contains Symfony benchmark code.
 
 Switch branch to select version and benchmark you want to see.
+
+You can find source code links into [Configuration::getSourceCodeUrls()](.phpbenchmarks/Configuration.php).
 
 ## Benchmarks
 
