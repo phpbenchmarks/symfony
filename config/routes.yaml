@@ -1,3 +1,1501 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+rest:
+    path: /benchmark/rest
+    controller: App\Controller\RestApiController
+
+test-route-1:
+    path: /benchmark/test-route-1
+    controller: App\Controller\UndefinedController
+test-route-2:
+    path: /benchmark/test-route-2
+    controller: App\Controller\UndefinedController
+test-route-3:
+    path: /benchmark/test-route-3
+    controller: App\Controller\UndefinedController
+test-route-4:
+    path: /benchmark/test-route-4
+    controller: App\Controller\UndefinedController
+test-route-5:
+    path: /benchmark/test-route-5
+    controller: App\Controller\UndefinedController
+test-route-6:
+    path: /benchmark/test-route-6
+    controller: App\Controller\UndefinedController
+test-route-7:
+    path: /benchmark/test-route-7
+    controller: App\Controller\UndefinedController
+test-route-8:
+    path: /benchmark/test-route-8
+    controller: App\Controller\UndefinedController
+test-route-9:
+    path: /benchmark/test-route-9
+    controller: App\Controller\UndefinedController
+test-route-10:
+    path: /benchmark/test-route-10
+    controller: App\Controller\UndefinedController
+test-route-11:
+    path: /benchmark/test-route-11
+    controller: App\Controller\UndefinedController
+test-route-12:
+    path: /benchmark/test-route-12
+    controller: App\Controller\UndefinedController
+test-route-13:
+    path: /benchmark/test-route-13
+    controller: App\Controller\UndefinedController
+test-route-14:
+    path: /benchmark/test-route-14
+    controller: App\Controller\UndefinedController
+test-route-15:
+    path: /benchmark/test-route-15
+    controller: App\Controller\UndefinedController
+test-route-16:
+    path: /benchmark/test-route-16
+    controller: App\Controller\UndefinedController
+test-route-17:
+    path: /benchmark/test-route-17
+    controller: App\Controller\UndefinedController
+test-route-18:
+    path: /benchmark/test-route-18
+    controller: App\Controller\UndefinedController
+test-route-19:
+    path: /benchmark/test-route-19
+    controller: App\Controller\UndefinedController
+test-route-20:
+    path: /benchmark/test-route-20
+    controller: App\Controller\UndefinedController
+test-route-21:
+    path: /benchmark/test-route-21
+    controller: App\Controller\UndefinedController
+test-route-22:
+    path: /benchmark/test-route-22
+    controller: App\Controller\UndefinedController
+test-route-23:
+    path: /benchmark/test-route-23
+    controller: App\Controller\UndefinedController
+test-route-24:
+    path: /benchmark/test-route-24
+    controller: App\Controller\UndefinedController
+test-route-25:
+    path: /benchmark/test-route-25
+    controller: App\Controller\UndefinedController
+test-route-26:
+    path: /benchmark/test-route-26
+    controller: App\Controller\UndefinedController
+test-route-27:
+    path: /benchmark/test-route-27
+    controller: App\Controller\UndefinedController
+test-route-28:
+    path: /benchmark/test-route-28
+    controller: App\Controller\UndefinedController
+test-route-29:
+    path: /benchmark/test-route-29
+    controller: App\Controller\UndefinedController
+test-route-30:
+    path: /benchmark/test-route-30
+    controller: App\Controller\UndefinedController
+test-route-31:
+    path: /benchmark/test-route-31
+    controller: App\Controller\UndefinedController
+test-route-32:
+    path: /benchmark/test-route-32
+    controller: App\Controller\UndefinedController
+test-route-33:
+    path: /benchmark/test-route-33
+    controller: App\Controller\UndefinedController
+test-route-34:
+    path: /benchmark/test-route-34
+    controller: App\Controller\UndefinedController
+test-route-35:
+    path: /benchmark/test-route-35
+    controller: App\Controller\UndefinedController
+test-route-36:
+    path: /benchmark/test-route-36
+    controller: App\Controller\UndefinedController
+test-route-37:
+    path: /benchmark/test-route-37
+    controller: App\Controller\UndefinedController
+test-route-38:
+    path: /benchmark/test-route-38
+    controller: App\Controller\UndefinedController
+test-route-39:
+    path: /benchmark/test-route-39
+    controller: App\Controller\UndefinedController
+test-route-40:
+    path: /benchmark/test-route-40
+    controller: App\Controller\UndefinedController
+test-route-41:
+    path: /benchmark/test-route-41
+    controller: App\Controller\UndefinedController
+test-route-42:
+    path: /benchmark/test-route-42
+    controller: App\Controller\UndefinedController
+test-route-43:
+    path: /benchmark/test-route-43
+    controller: App\Controller\UndefinedController
+test-route-44:
+    path: /benchmark/test-route-44
+    controller: App\Controller\UndefinedController
+test-route-45:
+    path: /benchmark/test-route-45
+    controller: App\Controller\UndefinedController
+test-route-46:
+    path: /benchmark/test-route-46
+    controller: App\Controller\UndefinedController
+test-route-47:
+    path: /benchmark/test-route-47
+    controller: App\Controller\UndefinedController
+test-route-48:
+    path: /benchmark/test-route-48
+    controller: App\Controller\UndefinedController
+test-route-49:
+    path: /benchmark/test-route-49
+    controller: App\Controller\UndefinedController
+test-route-50:
+    path: /benchmark/test-route-50
+    controller: App\Controller\UndefinedController
+test-route-51:
+    path: /benchmark/test-route-51
+    controller: App\Controller\UndefinedController
+test-route-52:
+    path: /benchmark/test-route-52
+    controller: App\Controller\UndefinedController
+test-route-53:
+    path: /benchmark/test-route-53
+    controller: App\Controller\UndefinedController
+test-route-54:
+    path: /benchmark/test-route-54
+    controller: App\Controller\UndefinedController
+test-route-55:
+    path: /benchmark/test-route-55
+    controller: App\Controller\UndefinedController
+test-route-56:
+    path: /benchmark/test-route-56
+    controller: App\Controller\UndefinedController
+test-route-57:
+    path: /benchmark/test-route-57
+    controller: App\Controller\UndefinedController
+test-route-58:
+    path: /benchmark/test-route-58
+    controller: App\Controller\UndefinedController
+test-route-59:
+    path: /benchmark/test-route-59
+    controller: App\Controller\UndefinedController
+test-route-60:
+    path: /benchmark/test-route-60
+    controller: App\Controller\UndefinedController
+test-route-61:
+    path: /benchmark/test-route-61
+    controller: App\Controller\UndefinedController
+test-route-62:
+    path: /benchmark/test-route-62
+    controller: App\Controller\UndefinedController
+test-route-63:
+    path: /benchmark/test-route-63
+    controller: App\Controller\UndefinedController
+test-route-64:
+    path: /benchmark/test-route-64
+    controller: App\Controller\UndefinedController
+test-route-65:
+    path: /benchmark/test-route-65
+    controller: App\Controller\UndefinedController
+test-route-66:
+    path: /benchmark/test-route-66
+    controller: App\Controller\UndefinedController
+test-route-67:
+    path: /benchmark/test-route-67
+    controller: App\Controller\UndefinedController
+test-route-68:
+    path: /benchmark/test-route-68
+    controller: App\Controller\UndefinedController
+test-route-69:
+    path: /benchmark/test-route-69
+    controller: App\Controller\UndefinedController
+test-route-70:
+    path: /benchmark/test-route-70
+    controller: App\Controller\UndefinedController
+test-route-71:
+    path: /benchmark/test-route-71
+    controller: App\Controller\UndefinedController
+test-route-72:
+    path: /benchmark/test-route-72
+    controller: App\Controller\UndefinedController
+test-route-73:
+    path: /benchmark/test-route-73
+    controller: App\Controller\UndefinedController
+test-route-74:
+    path: /benchmark/test-route-74
+    controller: App\Controller\UndefinedController
+test-route-75:
+    path: /benchmark/test-route-75
+    controller: App\Controller\UndefinedController
+test-route-76:
+    path: /benchmark/test-route-76
+    controller: App\Controller\UndefinedController
+test-route-77:
+    path: /benchmark/test-route-77
+    controller: App\Controller\UndefinedController
+test-route-78:
+    path: /benchmark/test-route-78
+    controller: App\Controller\UndefinedController
+test-route-79:
+    path: /benchmark/test-route-79
+    controller: App\Controller\UndefinedController
+test-route-80:
+    path: /benchmark/test-route-80
+    controller: App\Controller\UndefinedController
+test-route-81:
+    path: /benchmark/test-route-81
+    controller: App\Controller\UndefinedController
+test-route-82:
+    path: /benchmark/test-route-82
+    controller: App\Controller\UndefinedController
+test-route-83:
+    path: /benchmark/test-route-83
+    controller: App\Controller\UndefinedController
+test-route-84:
+    path: /benchmark/test-route-84
+    controller: App\Controller\UndefinedController
+test-route-85:
+    path: /benchmark/test-route-85
+    controller: App\Controller\UndefinedController
+test-route-86:
+    path: /benchmark/test-route-86
+    controller: App\Controller\UndefinedController
+test-route-87:
+    path: /benchmark/test-route-87
+    controller: App\Controller\UndefinedController
+test-route-88:
+    path: /benchmark/test-route-88
+    controller: App\Controller\UndefinedController
+test-route-89:
+    path: /benchmark/test-route-89
+    controller: App\Controller\UndefinedController
+test-route-90:
+    path: /benchmark/test-route-90
+    controller: App\Controller\UndefinedController
+test-route-91:
+    path: /benchmark/test-route-91
+    controller: App\Controller\UndefinedController
+test-route-92:
+    path: /benchmark/test-route-92
+    controller: App\Controller\UndefinedController
+test-route-93:
+    path: /benchmark/test-route-93
+    controller: App\Controller\UndefinedController
+test-route-94:
+    path: /benchmark/test-route-94
+    controller: App\Controller\UndefinedController
+test-route-95:
+    path: /benchmark/test-route-95
+    controller: App\Controller\UndefinedController
+test-route-96:
+    path: /benchmark/test-route-96
+    controller: App\Controller\UndefinedController
+test-route-97:
+    path: /benchmark/test-route-97
+    controller: App\Controller\UndefinedController
+test-route-98:
+    path: /benchmark/test-route-98
+    controller: App\Controller\UndefinedController
+test-route-99:
+    path: /benchmark/test-route-99
+    controller: App\Controller\UndefinedController
+test-route-100:
+    path: /benchmark/test-route-100
+    controller: App\Controller\UndefinedController
+test-route-101:
+    path: /benchmark/test-route-101
+    controller: App\Controller\UndefinedController
+test-route-102:
+    path: /benchmark/test-route-102
+    controller: App\Controller\UndefinedController
+test-route-103:
+    path: /benchmark/test-route-103
+    controller: App\Controller\UndefinedController
+test-route-104:
+    path: /benchmark/test-route-104
+    controller: App\Controller\UndefinedController
+test-route-105:
+    path: /benchmark/test-route-105
+    controller: App\Controller\UndefinedController
+test-route-106:
+    path: /benchmark/test-route-106
+    controller: App\Controller\UndefinedController
+test-route-107:
+    path: /benchmark/test-route-107
+    controller: App\Controller\UndefinedController
+test-route-108:
+    path: /benchmark/test-route-108
+    controller: App\Controller\UndefinedController
+test-route-109:
+    path: /benchmark/test-route-109
+    controller: App\Controller\UndefinedController
+test-route-110:
+    path: /benchmark/test-route-110
+    controller: App\Controller\UndefinedController
+test-route-111:
+    path: /benchmark/test-route-111
+    controller: App\Controller\UndefinedController
+test-route-112:
+    path: /benchmark/test-route-112
+    controller: App\Controller\UndefinedController
+test-route-113:
+    path: /benchmark/test-route-113
+    controller: App\Controller\UndefinedController
+test-route-114:
+    path: /benchmark/test-route-114
+    controller: App\Controller\UndefinedController
+test-route-115:
+    path: /benchmark/test-route-115
+    controller: App\Controller\UndefinedController
+test-route-116:
+    path: /benchmark/test-route-116
+    controller: App\Controller\UndefinedController
+test-route-117:
+    path: /benchmark/test-route-117
+    controller: App\Controller\UndefinedController
+test-route-118:
+    path: /benchmark/test-route-118
+    controller: App\Controller\UndefinedController
+test-route-119:
+    path: /benchmark/test-route-119
+    controller: App\Controller\UndefinedController
+test-route-120:
+    path: /benchmark/test-route-120
+    controller: App\Controller\UndefinedController
+test-route-121:
+    path: /benchmark/test-route-121
+    controller: App\Controller\UndefinedController
+test-route-122:
+    path: /benchmark/test-route-122
+    controller: App\Controller\UndefinedController
+test-route-123:
+    path: /benchmark/test-route-123
+    controller: App\Controller\UndefinedController
+test-route-124:
+    path: /benchmark/test-route-124
+    controller: App\Controller\UndefinedController
+test-route-125:
+    path: /benchmark/test-route-125
+    controller: App\Controller\UndefinedController
+test-route-126:
+    path: /benchmark/test-route-126
+    controller: App\Controller\UndefinedController
+test-route-127:
+    path: /benchmark/test-route-127
+    controller: App\Controller\UndefinedController
+test-route-128:
+    path: /benchmark/test-route-128
+    controller: App\Controller\UndefinedController
+test-route-129:
+    path: /benchmark/test-route-129
+    controller: App\Controller\UndefinedController
+test-route-130:
+    path: /benchmark/test-route-130
+    controller: App\Controller\UndefinedController
+test-route-131:
+    path: /benchmark/test-route-131
+    controller: App\Controller\UndefinedController
+test-route-132:
+    path: /benchmark/test-route-132
+    controller: App\Controller\UndefinedController
+test-route-133:
+    path: /benchmark/test-route-133
+    controller: App\Controller\UndefinedController
+test-route-134:
+    path: /benchmark/test-route-134
+    controller: App\Controller\UndefinedController
+test-route-135:
+    path: /benchmark/test-route-135
+    controller: App\Controller\UndefinedController
+test-route-136:
+    path: /benchmark/test-route-136
+    controller: App\Controller\UndefinedController
+test-route-137:
+    path: /benchmark/test-route-137
+    controller: App\Controller\UndefinedController
+test-route-138:
+    path: /benchmark/test-route-138
+    controller: App\Controller\UndefinedController
+test-route-139:
+    path: /benchmark/test-route-139
+    controller: App\Controller\UndefinedController
+test-route-140:
+    path: /benchmark/test-route-140
+    controller: App\Controller\UndefinedController
+test-route-141:
+    path: /benchmark/test-route-141
+    controller: App\Controller\UndefinedController
+test-route-142:
+    path: /benchmark/test-route-142
+    controller: App\Controller\UndefinedController
+test-route-143:
+    path: /benchmark/test-route-143
+    controller: App\Controller\UndefinedController
+test-route-144:
+    path: /benchmark/test-route-144
+    controller: App\Controller\UndefinedController
+test-route-145:
+    path: /benchmark/test-route-145
+    controller: App\Controller\UndefinedController
+test-route-146:
+    path: /benchmark/test-route-146
+    controller: App\Controller\UndefinedController
+test-route-147:
+    path: /benchmark/test-route-147
+    controller: App\Controller\UndefinedController
+test-route-148:
+    path: /benchmark/test-route-148
+    controller: App\Controller\UndefinedController
+test-route-149:
+    path: /benchmark/test-route-149
+    controller: App\Controller\UndefinedController
+test-route-150:
+    path: /benchmark/test-route-150
+    controller: App\Controller\UndefinedController
+test-route-151:
+    path: /benchmark/test-route-151
+    controller: App\Controller\UndefinedController
+test-route-152:
+    path: /benchmark/test-route-152
+    controller: App\Controller\UndefinedController
+test-route-153:
+    path: /benchmark/test-route-153
+    controller: App\Controller\UndefinedController
+test-route-154:
+    path: /benchmark/test-route-154
+    controller: App\Controller\UndefinedController
+test-route-155:
+    path: /benchmark/test-route-155
+    controller: App\Controller\UndefinedController
+test-route-156:
+    path: /benchmark/test-route-156
+    controller: App\Controller\UndefinedController
+test-route-157:
+    path: /benchmark/test-route-157
+    controller: App\Controller\UndefinedController
+test-route-158:
+    path: /benchmark/test-route-158
+    controller: App\Controller\UndefinedController
+test-route-159:
+    path: /benchmark/test-route-159
+    controller: App\Controller\UndefinedController
+test-route-160:
+    path: /benchmark/test-route-160
+    controller: App\Controller\UndefinedController
+test-route-161:
+    path: /benchmark/test-route-161
+    controller: App\Controller\UndefinedController
+test-route-162:
+    path: /benchmark/test-route-162
+    controller: App\Controller\UndefinedController
+test-route-163:
+    path: /benchmark/test-route-163
+    controller: App\Controller\UndefinedController
+test-route-164:
+    path: /benchmark/test-route-164
+    controller: App\Controller\UndefinedController
+test-route-165:
+    path: /benchmark/test-route-165
+    controller: App\Controller\UndefinedController
+test-route-166:
+    path: /benchmark/test-route-166
+    controller: App\Controller\UndefinedController
+test-route-167:
+    path: /benchmark/test-route-167
+    controller: App\Controller\UndefinedController
+test-route-168:
+    path: /benchmark/test-route-168
+    controller: App\Controller\UndefinedController
+test-route-169:
+    path: /benchmark/test-route-169
+    controller: App\Controller\UndefinedController
+test-route-170:
+    path: /benchmark/test-route-170
+    controller: App\Controller\UndefinedController
+test-route-171:
+    path: /benchmark/test-route-171
+    controller: App\Controller\UndefinedController
+test-route-172:
+    path: /benchmark/test-route-172
+    controller: App\Controller\UndefinedController
+test-route-173:
+    path: /benchmark/test-route-173
+    controller: App\Controller\UndefinedController
+test-route-174:
+    path: /benchmark/test-route-174
+    controller: App\Controller\UndefinedController
+test-route-175:
+    path: /benchmark/test-route-175
+    controller: App\Controller\UndefinedController
+test-route-176:
+    path: /benchmark/test-route-176
+    controller: App\Controller\UndefinedController
+test-route-177:
+    path: /benchmark/test-route-177
+    controller: App\Controller\UndefinedController
+test-route-178:
+    path: /benchmark/test-route-178
+    controller: App\Controller\UndefinedController
+test-route-179:
+    path: /benchmark/test-route-179
+    controller: App\Controller\UndefinedController
+test-route-180:
+    path: /benchmark/test-route-180
+    controller: App\Controller\UndefinedController
+test-route-181:
+    path: /benchmark/test-route-181
+    controller: App\Controller\UndefinedController
+test-route-182:
+    path: /benchmark/test-route-182
+    controller: App\Controller\UndefinedController
+test-route-183:
+    path: /benchmark/test-route-183
+    controller: App\Controller\UndefinedController
+test-route-184:
+    path: /benchmark/test-route-184
+    controller: App\Controller\UndefinedController
+test-route-185:
+    path: /benchmark/test-route-185
+    controller: App\Controller\UndefinedController
+test-route-186:
+    path: /benchmark/test-route-186
+    controller: App\Controller\UndefinedController
+test-route-187:
+    path: /benchmark/test-route-187
+    controller: App\Controller\UndefinedController
+test-route-188:
+    path: /benchmark/test-route-188
+    controller: App\Controller\UndefinedController
+test-route-189:
+    path: /benchmark/test-route-189
+    controller: App\Controller\UndefinedController
+test-route-190:
+    path: /benchmark/test-route-190
+    controller: App\Controller\UndefinedController
+test-route-191:
+    path: /benchmark/test-route-191
+    controller: App\Controller\UndefinedController
+test-route-192:
+    path: /benchmark/test-route-192
+    controller: App\Controller\UndefinedController
+test-route-193:
+    path: /benchmark/test-route-193
+    controller: App\Controller\UndefinedController
+test-route-194:
+    path: /benchmark/test-route-194
+    controller: App\Controller\UndefinedController
+test-route-195:
+    path: /benchmark/test-route-195
+    controller: App\Controller\UndefinedController
+test-route-196:
+    path: /benchmark/test-route-196
+    controller: App\Controller\UndefinedController
+test-route-197:
+    path: /benchmark/test-route-197
+    controller: App\Controller\UndefinedController
+test-route-198:
+    path: /benchmark/test-route-198
+    controller: App\Controller\UndefinedController
+test-route-199:
+    path: /benchmark/test-route-199
+    controller: App\Controller\UndefinedController
+test-route-200:
+    path: /benchmark/test-route-200
+    controller: App\Controller\UndefinedController
+test-route-201:
+    path: /benchmark/test-route-201
+    controller: App\Controller\UndefinedController
+test-route-202:
+    path: /benchmark/test-route-202
+    controller: App\Controller\UndefinedController
+test-route-203:
+    path: /benchmark/test-route-203
+    controller: App\Controller\UndefinedController
+test-route-204:
+    path: /benchmark/test-route-204
+    controller: App\Controller\UndefinedController
+test-route-205:
+    path: /benchmark/test-route-205
+    controller: App\Controller\UndefinedController
+test-route-206:
+    path: /benchmark/test-route-206
+    controller: App\Controller\UndefinedController
+test-route-207:
+    path: /benchmark/test-route-207
+    controller: App\Controller\UndefinedController
+test-route-208:
+    path: /benchmark/test-route-208
+    controller: App\Controller\UndefinedController
+test-route-209:
+    path: /benchmark/test-route-209
+    controller: App\Controller\UndefinedController
+test-route-210:
+    path: /benchmark/test-route-210
+    controller: App\Controller\UndefinedController
+test-route-211:
+    path: /benchmark/test-route-211
+    controller: App\Controller\UndefinedController
+test-route-212:
+    path: /benchmark/test-route-212
+    controller: App\Controller\UndefinedController
+test-route-213:
+    path: /benchmark/test-route-213
+    controller: App\Controller\UndefinedController
+test-route-214:
+    path: /benchmark/test-route-214
+    controller: App\Controller\UndefinedController
+test-route-215:
+    path: /benchmark/test-route-215
+    controller: App\Controller\UndefinedController
+test-route-216:
+    path: /benchmark/test-route-216
+    controller: App\Controller\UndefinedController
+test-route-217:
+    path: /benchmark/test-route-217
+    controller: App\Controller\UndefinedController
+test-route-218:
+    path: /benchmark/test-route-218
+    controller: App\Controller\UndefinedController
+test-route-219:
+    path: /benchmark/test-route-219
+    controller: App\Controller\UndefinedController
+test-route-220:
+    path: /benchmark/test-route-220
+    controller: App\Controller\UndefinedController
+test-route-221:
+    path: /benchmark/test-route-221
+    controller: App\Controller\UndefinedController
+test-route-222:
+    path: /benchmark/test-route-222
+    controller: App\Controller\UndefinedController
+test-route-223:
+    path: /benchmark/test-route-223
+    controller: App\Controller\UndefinedController
+test-route-224:
+    path: /benchmark/test-route-224
+    controller: App\Controller\UndefinedController
+test-route-225:
+    path: /benchmark/test-route-225
+    controller: App\Controller\UndefinedController
+test-route-226:
+    path: /benchmark/test-route-226
+    controller: App\Controller\UndefinedController
+test-route-227:
+    path: /benchmark/test-route-227
+    controller: App\Controller\UndefinedController
+test-route-228:
+    path: /benchmark/test-route-228
+    controller: App\Controller\UndefinedController
+test-route-229:
+    path: /benchmark/test-route-229
+    controller: App\Controller\UndefinedController
+test-route-230:
+    path: /benchmark/test-route-230
+    controller: App\Controller\UndefinedController
+test-route-231:
+    path: /benchmark/test-route-231
+    controller: App\Controller\UndefinedController
+test-route-232:
+    path: /benchmark/test-route-232
+    controller: App\Controller\UndefinedController
+test-route-233:
+    path: /benchmark/test-route-233
+    controller: App\Controller\UndefinedController
+test-route-234:
+    path: /benchmark/test-route-234
+    controller: App\Controller\UndefinedController
+test-route-235:
+    path: /benchmark/test-route-235
+    controller: App\Controller\UndefinedController
+test-route-236:
+    path: /benchmark/test-route-236
+    controller: App\Controller\UndefinedController
+test-route-237:
+    path: /benchmark/test-route-237
+    controller: App\Controller\UndefinedController
+test-route-238:
+    path: /benchmark/test-route-238
+    controller: App\Controller\UndefinedController
+test-route-239:
+    path: /benchmark/test-route-239
+    controller: App\Controller\UndefinedController
+test-route-240:
+    path: /benchmark/test-route-240
+    controller: App\Controller\UndefinedController
+test-route-241:
+    path: /benchmark/test-route-241
+    controller: App\Controller\UndefinedController
+test-route-242:
+    path: /benchmark/test-route-242
+    controller: App\Controller\UndefinedController
+test-route-243:
+    path: /benchmark/test-route-243
+    controller: App\Controller\UndefinedController
+test-route-244:
+    path: /benchmark/test-route-244
+    controller: App\Controller\UndefinedController
+test-route-245:
+    path: /benchmark/test-route-245
+    controller: App\Controller\UndefinedController
+test-route-246:
+    path: /benchmark/test-route-246
+    controller: App\Controller\UndefinedController
+test-route-247:
+    path: /benchmark/test-route-247
+    controller: App\Controller\UndefinedController
+test-route-248:
+    path: /benchmark/test-route-248
+    controller: App\Controller\UndefinedController
+test-route-249:
+    path: /benchmark/test-route-249
+    controller: App\Controller\UndefinedController
+test-route-250:
+    path: /benchmark/test-route-250
+    controller: App\Controller\UndefinedController
+test-route-251:
+    path: /benchmark/test-route-251
+    controller: App\Controller\UndefinedController
+test-route-252:
+    path: /benchmark/test-route-252
+    controller: App\Controller\UndefinedController
+test-route-253:
+    path: /benchmark/test-route-253
+    controller: App\Controller\UndefinedController
+test-route-254:
+    path: /benchmark/test-route-254
+    controller: App\Controller\UndefinedController
+test-route-255:
+    path: /benchmark/test-route-255
+    controller: App\Controller\UndefinedController
+test-route-256:
+    path: /benchmark/test-route-256
+    controller: App\Controller\UndefinedController
+test-route-257:
+    path: /benchmark/test-route-257
+    controller: App\Controller\UndefinedController
+test-route-258:
+    path: /benchmark/test-route-258
+    controller: App\Controller\UndefinedController
+test-route-259:
+    path: /benchmark/test-route-259
+    controller: App\Controller\UndefinedController
+test-route-260:
+    path: /benchmark/test-route-260
+    controller: App\Controller\UndefinedController
+test-route-261:
+    path: /benchmark/test-route-261
+    controller: App\Controller\UndefinedController
+test-route-262:
+    path: /benchmark/test-route-262
+    controller: App\Controller\UndefinedController
+test-route-263:
+    path: /benchmark/test-route-263
+    controller: App\Controller\UndefinedController
+test-route-264:
+    path: /benchmark/test-route-264
+    controller: App\Controller\UndefinedController
+test-route-265:
+    path: /benchmark/test-route-265
+    controller: App\Controller\UndefinedController
+test-route-266:
+    path: /benchmark/test-route-266
+    controller: App\Controller\UndefinedController
+test-route-267:
+    path: /benchmark/test-route-267
+    controller: App\Controller\UndefinedController
+test-route-268:
+    path: /benchmark/test-route-268
+    controller: App\Controller\UndefinedController
+test-route-269:
+    path: /benchmark/test-route-269
+    controller: App\Controller\UndefinedController
+test-route-270:
+    path: /benchmark/test-route-270
+    controller: App\Controller\UndefinedController
+test-route-271:
+    path: /benchmark/test-route-271
+    controller: App\Controller\UndefinedController
+test-route-272:
+    path: /benchmark/test-route-272
+    controller: App\Controller\UndefinedController
+test-route-273:
+    path: /benchmark/test-route-273
+    controller: App\Controller\UndefinedController
+test-route-274:
+    path: /benchmark/test-route-274
+    controller: App\Controller\UndefinedController
+test-route-275:
+    path: /benchmark/test-route-275
+    controller: App\Controller\UndefinedController
+test-route-276:
+    path: /benchmark/test-route-276
+    controller: App\Controller\UndefinedController
+test-route-277:
+    path: /benchmark/test-route-277
+    controller: App\Controller\UndefinedController
+test-route-278:
+    path: /benchmark/test-route-278
+    controller: App\Controller\UndefinedController
+test-route-279:
+    path: /benchmark/test-route-279
+    controller: App\Controller\UndefinedController
+test-route-280:
+    path: /benchmark/test-route-280
+    controller: App\Controller\UndefinedController
+test-route-281:
+    path: /benchmark/test-route-281
+    controller: App\Controller\UndefinedController
+test-route-282:
+    path: /benchmark/test-route-282
+    controller: App\Controller\UndefinedController
+test-route-283:
+    path: /benchmark/test-route-283
+    controller: App\Controller\UndefinedController
+test-route-284:
+    path: /benchmark/test-route-284
+    controller: App\Controller\UndefinedController
+test-route-285:
+    path: /benchmark/test-route-285
+    controller: App\Controller\UndefinedController
+test-route-286:
+    path: /benchmark/test-route-286
+    controller: App\Controller\UndefinedController
+test-route-287:
+    path: /benchmark/test-route-287
+    controller: App\Controller\UndefinedController
+test-route-288:
+    path: /benchmark/test-route-288
+    controller: App\Controller\UndefinedController
+test-route-289:
+    path: /benchmark/test-route-289
+    controller: App\Controller\UndefinedController
+test-route-290:
+    path: /benchmark/test-route-290
+    controller: App\Controller\UndefinedController
+test-route-291:
+    path: /benchmark/test-route-291
+    controller: App\Controller\UndefinedController
+test-route-292:
+    path: /benchmark/test-route-292
+    controller: App\Controller\UndefinedController
+test-route-293:
+    path: /benchmark/test-route-293
+    controller: App\Controller\UndefinedController
+test-route-294:
+    path: /benchmark/test-route-294
+    controller: App\Controller\UndefinedController
+test-route-295:
+    path: /benchmark/test-route-295
+    controller: App\Controller\UndefinedController
+test-route-296:
+    path: /benchmark/test-route-296
+    controller: App\Controller\UndefinedController
+test-route-297:
+    path: /benchmark/test-route-297
+    controller: App\Controller\UndefinedController
+test-route-298:
+    path: /benchmark/test-route-298
+    controller: App\Controller\UndefinedController
+test-route-299:
+    path: /benchmark/test-route-299
+    controller: App\Controller\UndefinedController
+test-route-300:
+    path: /benchmark/test-route-300
+    controller: App\Controller\UndefinedController
+test-route-301:
+    path: /benchmark/test-route-301
+    controller: App\Controller\UndefinedController
+test-route-302:
+    path: /benchmark/test-route-302
+    controller: App\Controller\UndefinedController
+test-route-303:
+    path: /benchmark/test-route-303
+    controller: App\Controller\UndefinedController
+test-route-304:
+    path: /benchmark/test-route-304
+    controller: App\Controller\UndefinedController
+test-route-305:
+    path: /benchmark/test-route-305
+    controller: App\Controller\UndefinedController
+test-route-306:
+    path: /benchmark/test-route-306
+    controller: App\Controller\UndefinedController
+test-route-307:
+    path: /benchmark/test-route-307
+    controller: App\Controller\UndefinedController
+test-route-308:
+    path: /benchmark/test-route-308
+    controller: App\Controller\UndefinedController
+test-route-309:
+    path: /benchmark/test-route-309
+    controller: App\Controller\UndefinedController
+test-route-310:
+    path: /benchmark/test-route-310
+    controller: App\Controller\UndefinedController
+test-route-311:
+    path: /benchmark/test-route-311
+    controller: App\Controller\UndefinedController
+test-route-312:
+    path: /benchmark/test-route-312
+    controller: App\Controller\UndefinedController
+test-route-313:
+    path: /benchmark/test-route-313
+    controller: App\Controller\UndefinedController
+test-route-314:
+    path: /benchmark/test-route-314
+    controller: App\Controller\UndefinedController
+test-route-315:
+    path: /benchmark/test-route-315
+    controller: App\Controller\UndefinedController
+test-route-316:
+    path: /benchmark/test-route-316
+    controller: App\Controller\UndefinedController
+test-route-317:
+    path: /benchmark/test-route-317
+    controller: App\Controller\UndefinedController
+test-route-318:
+    path: /benchmark/test-route-318
+    controller: App\Controller\UndefinedController
+test-route-319:
+    path: /benchmark/test-route-319
+    controller: App\Controller\UndefinedController
+test-route-320:
+    path: /benchmark/test-route-320
+    controller: App\Controller\UndefinedController
+test-route-321:
+    path: /benchmark/test-route-321
+    controller: App\Controller\UndefinedController
+test-route-322:
+    path: /benchmark/test-route-322
+    controller: App\Controller\UndefinedController
+test-route-323:
+    path: /benchmark/test-route-323
+    controller: App\Controller\UndefinedController
+test-route-324:
+    path: /benchmark/test-route-324
+    controller: App\Controller\UndefinedController
+test-route-325:
+    path: /benchmark/test-route-325
+    controller: App\Controller\UndefinedController
+test-route-326:
+    path: /benchmark/test-route-326
+    controller: App\Controller\UndefinedController
+test-route-327:
+    path: /benchmark/test-route-327
+    controller: App\Controller\UndefinedController
+test-route-328:
+    path: /benchmark/test-route-328
+    controller: App\Controller\UndefinedController
+test-route-329:
+    path: /benchmark/test-route-329
+    controller: App\Controller\UndefinedController
+test-route-330:
+    path: /benchmark/test-route-330
+    controller: App\Controller\UndefinedController
+test-route-331:
+    path: /benchmark/test-route-331
+    controller: App\Controller\UndefinedController
+test-route-332:
+    path: /benchmark/test-route-332
+    controller: App\Controller\UndefinedController
+test-route-333:
+    path: /benchmark/test-route-333
+    controller: App\Controller\UndefinedController
+test-route-334:
+    path: /benchmark/test-route-334
+    controller: App\Controller\UndefinedController
+test-route-335:
+    path: /benchmark/test-route-335
+    controller: App\Controller\UndefinedController
+test-route-336:
+    path: /benchmark/test-route-336
+    controller: App\Controller\UndefinedController
+test-route-337:
+    path: /benchmark/test-route-337
+    controller: App\Controller\UndefinedController
+test-route-338:
+    path: /benchmark/test-route-338
+    controller: App\Controller\UndefinedController
+test-route-339:
+    path: /benchmark/test-route-339
+    controller: App\Controller\UndefinedController
+test-route-340:
+    path: /benchmark/test-route-340
+    controller: App\Controller\UndefinedController
+test-route-341:
+    path: /benchmark/test-route-341
+    controller: App\Controller\UndefinedController
+test-route-342:
+    path: /benchmark/test-route-342
+    controller: App\Controller\UndefinedController
+test-route-343:
+    path: /benchmark/test-route-343
+    controller: App\Controller\UndefinedController
+test-route-344:
+    path: /benchmark/test-route-344
+    controller: App\Controller\UndefinedController
+test-route-345:
+    path: /benchmark/test-route-345
+    controller: App\Controller\UndefinedController
+test-route-346:
+    path: /benchmark/test-route-346
+    controller: App\Controller\UndefinedController
+test-route-347:
+    path: /benchmark/test-route-347
+    controller: App\Controller\UndefinedController
+test-route-348:
+    path: /benchmark/test-route-348
+    controller: App\Controller\UndefinedController
+test-route-349:
+    path: /benchmark/test-route-349
+    controller: App\Controller\UndefinedController
+test-route-350:
+    path: /benchmark/test-route-350
+    controller: App\Controller\UndefinedController
+test-route-351:
+    path: /benchmark/test-route-351
+    controller: App\Controller\UndefinedController
+test-route-352:
+    path: /benchmark/test-route-352
+    controller: App\Controller\UndefinedController
+test-route-353:
+    path: /benchmark/test-route-353
+    controller: App\Controller\UndefinedController
+test-route-354:
+    path: /benchmark/test-route-354
+    controller: App\Controller\UndefinedController
+test-route-355:
+    path: /benchmark/test-route-355
+    controller: App\Controller\UndefinedController
+test-route-356:
+    path: /benchmark/test-route-356
+    controller: App\Controller\UndefinedController
+test-route-357:
+    path: /benchmark/test-route-357
+    controller: App\Controller\UndefinedController
+test-route-358:
+    path: /benchmark/test-route-358
+    controller: App\Controller\UndefinedController
+test-route-359:
+    path: /benchmark/test-route-359
+    controller: App\Controller\UndefinedController
+test-route-360:
+    path: /benchmark/test-route-360
+    controller: App\Controller\UndefinedController
+test-route-361:
+    path: /benchmark/test-route-361
+    controller: App\Controller\UndefinedController
+test-route-362:
+    path: /benchmark/test-route-362
+    controller: App\Controller\UndefinedController
+test-route-363:
+    path: /benchmark/test-route-363
+    controller: App\Controller\UndefinedController
+test-route-364:
+    path: /benchmark/test-route-364
+    controller: App\Controller\UndefinedController
+test-route-365:
+    path: /benchmark/test-route-365
+    controller: App\Controller\UndefinedController
+test-route-366:
+    path: /benchmark/test-route-366
+    controller: App\Controller\UndefinedController
+test-route-367:
+    path: /benchmark/test-route-367
+    controller: App\Controller\UndefinedController
+test-route-368:
+    path: /benchmark/test-route-368
+    controller: App\Controller\UndefinedController
+test-route-369:
+    path: /benchmark/test-route-369
+    controller: App\Controller\UndefinedController
+test-route-370:
+    path: /benchmark/test-route-370
+    controller: App\Controller\UndefinedController
+test-route-371:
+    path: /benchmark/test-route-371
+    controller: App\Controller\UndefinedController
+test-route-372:
+    path: /benchmark/test-route-372
+    controller: App\Controller\UndefinedController
+test-route-373:
+    path: /benchmark/test-route-373
+    controller: App\Controller\UndefinedController
+test-route-374:
+    path: /benchmark/test-route-374
+    controller: App\Controller\UndefinedController
+test-route-375:
+    path: /benchmark/test-route-375
+    controller: App\Controller\UndefinedController
+test-route-376:
+    path: /benchmark/test-route-376
+    controller: App\Controller\UndefinedController
+test-route-377:
+    path: /benchmark/test-route-377
+    controller: App\Controller\UndefinedController
+test-route-378:
+    path: /benchmark/test-route-378
+    controller: App\Controller\UndefinedController
+test-route-379:
+    path: /benchmark/test-route-379
+    controller: App\Controller\UndefinedController
+test-route-380:
+    path: /benchmark/test-route-380
+    controller: App\Controller\UndefinedController
+test-route-381:
+    path: /benchmark/test-route-381
+    controller: App\Controller\UndefinedController
+test-route-382:
+    path: /benchmark/test-route-382
+    controller: App\Controller\UndefinedController
+test-route-383:
+    path: /benchmark/test-route-383
+    controller: App\Controller\UndefinedController
+test-route-384:
+    path: /benchmark/test-route-384
+    controller: App\Controller\UndefinedController
+test-route-385:
+    path: /benchmark/test-route-385
+    controller: App\Controller\UndefinedController
+test-route-386:
+    path: /benchmark/test-route-386
+    controller: App\Controller\UndefinedController
+test-route-387:
+    path: /benchmark/test-route-387
+    controller: App\Controller\UndefinedController
+test-route-388:
+    path: /benchmark/test-route-388
+    controller: App\Controller\UndefinedController
+test-route-389:
+    path: /benchmark/test-route-389
+    controller: App\Controller\UndefinedController
+test-route-390:
+    path: /benchmark/test-route-390
+    controller: App\Controller\UndefinedController
+test-route-391:
+    path: /benchmark/test-route-391
+    controller: App\Controller\UndefinedController
+test-route-392:
+    path: /benchmark/test-route-392
+    controller: App\Controller\UndefinedController
+test-route-393:
+    path: /benchmark/test-route-393
+    controller: App\Controller\UndefinedController
+test-route-394:
+    path: /benchmark/test-route-394
+    controller: App\Controller\UndefinedController
+test-route-395:
+    path: /benchmark/test-route-395
+    controller: App\Controller\UndefinedController
+test-route-396:
+    path: /benchmark/test-route-396
+    controller: App\Controller\UndefinedController
+test-route-397:
+    path: /benchmark/test-route-397
+    controller: App\Controller\UndefinedController
+test-route-398:
+    path: /benchmark/test-route-398
+    controller: App\Controller\UndefinedController
+test-route-399:
+    path: /benchmark/test-route-399
+    controller: App\Controller\UndefinedController
+test-route-400:
+    path: /benchmark/test-route-400
+    controller: App\Controller\UndefinedController
+test-route-401:
+    path: /benchmark/test-route-401
+    controller: App\Controller\UndefinedController
+test-route-402:
+    path: /benchmark/test-route-402
+    controller: App\Controller\UndefinedController
+test-route-403:
+    path: /benchmark/test-route-403
+    controller: App\Controller\UndefinedController
+test-route-404:
+    path: /benchmark/test-route-404
+    controller: App\Controller\UndefinedController
+test-route-405:
+    path: /benchmark/test-route-405
+    controller: App\Controller\UndefinedController
+test-route-406:
+    path: /benchmark/test-route-406
+    controller: App\Controller\UndefinedController
+test-route-407:
+    path: /benchmark/test-route-407
+    controller: App\Controller\UndefinedController
+test-route-408:
+    path: /benchmark/test-route-408
+    controller: App\Controller\UndefinedController
+test-route-409:
+    path: /benchmark/test-route-409
+    controller: App\Controller\UndefinedController
+test-route-410:
+    path: /benchmark/test-route-410
+    controller: App\Controller\UndefinedController
+test-route-411:
+    path: /benchmark/test-route-411
+    controller: App\Controller\UndefinedController
+test-route-412:
+    path: /benchmark/test-route-412
+    controller: App\Controller\UndefinedController
+test-route-413:
+    path: /benchmark/test-route-413
+    controller: App\Controller\UndefinedController
+test-route-414:
+    path: /benchmark/test-route-414
+    controller: App\Controller\UndefinedController
+test-route-415:
+    path: /benchmark/test-route-415
+    controller: App\Controller\UndefinedController
+test-route-416:
+    path: /benchmark/test-route-416
+    controller: App\Controller\UndefinedController
+test-route-417:
+    path: /benchmark/test-route-417
+    controller: App\Controller\UndefinedController
+test-route-418:
+    path: /benchmark/test-route-418
+    controller: App\Controller\UndefinedController
+test-route-419:
+    path: /benchmark/test-route-419
+    controller: App\Controller\UndefinedController
+test-route-420:
+    path: /benchmark/test-route-420
+    controller: App\Controller\UndefinedController
+test-route-421:
+    path: /benchmark/test-route-421
+    controller: App\Controller\UndefinedController
+test-route-422:
+    path: /benchmark/test-route-422
+    controller: App\Controller\UndefinedController
+test-route-423:
+    path: /benchmark/test-route-423
+    controller: App\Controller\UndefinedController
+test-route-424:
+    path: /benchmark/test-route-424
+    controller: App\Controller\UndefinedController
+test-route-425:
+    path: /benchmark/test-route-425
+    controller: App\Controller\UndefinedController
+test-route-426:
+    path: /benchmark/test-route-426
+    controller: App\Controller\UndefinedController
+test-route-427:
+    path: /benchmark/test-route-427
+    controller: App\Controller\UndefinedController
+test-route-428:
+    path: /benchmark/test-route-428
+    controller: App\Controller\UndefinedController
+test-route-429:
+    path: /benchmark/test-route-429
+    controller: App\Controller\UndefinedController
+test-route-430:
+    path: /benchmark/test-route-430
+    controller: App\Controller\UndefinedController
+test-route-431:
+    path: /benchmark/test-route-431
+    controller: App\Controller\UndefinedController
+test-route-432:
+    path: /benchmark/test-route-432
+    controller: App\Controller\UndefinedController
+test-route-433:
+    path: /benchmark/test-route-433
+    controller: App\Controller\UndefinedController
+test-route-434:
+    path: /benchmark/test-route-434
+    controller: App\Controller\UndefinedController
+test-route-435:
+    path: /benchmark/test-route-435
+    controller: App\Controller\UndefinedController
+test-route-436:
+    path: /benchmark/test-route-436
+    controller: App\Controller\UndefinedController
+test-route-437:
+    path: /benchmark/test-route-437
+    controller: App\Controller\UndefinedController
+test-route-438:
+    path: /benchmark/test-route-438
+    controller: App\Controller\UndefinedController
+test-route-439:
+    path: /benchmark/test-route-439
+    controller: App\Controller\UndefinedController
+test-route-440:
+    path: /benchmark/test-route-440
+    controller: App\Controller\UndefinedController
+test-route-441:
+    path: /benchmark/test-route-441
+    controller: App\Controller\UndefinedController
+test-route-442:
+    path: /benchmark/test-route-442
+    controller: App\Controller\UndefinedController
+test-route-443:
+    path: /benchmark/test-route-443
+    controller: App\Controller\UndefinedController
+test-route-444:
+    path: /benchmark/test-route-444
+    controller: App\Controller\UndefinedController
+test-route-445:
+    path: /benchmark/test-route-445
+    controller: App\Controller\UndefinedController
+test-route-446:
+    path: /benchmark/test-route-446
+    controller: App\Controller\UndefinedController
+test-route-447:
+    path: /benchmark/test-route-447
+    controller: App\Controller\UndefinedController
+test-route-448:
+    path: /benchmark/test-route-448
+    controller: App\Controller\UndefinedController
+test-route-449:
+    path: /benchmark/test-route-449
+    controller: App\Controller\UndefinedController
+test-route-450:
+    path: /benchmark/test-route-450
+    controller: App\Controller\UndefinedController
+test-route-451:
+    path: /benchmark/test-route-451
+    controller: App\Controller\UndefinedController
+test-route-452:
+    path: /benchmark/test-route-452
+    controller: App\Controller\UndefinedController
+test-route-453:
+    path: /benchmark/test-route-453
+    controller: App\Controller\UndefinedController
+test-route-454:
+    path: /benchmark/test-route-454
+    controller: App\Controller\UndefinedController
+test-route-455:
+    path: /benchmark/test-route-455
+    controller: App\Controller\UndefinedController
+test-route-456:
+    path: /benchmark/test-route-456
+    controller: App\Controller\UndefinedController
+test-route-457:
+    path: /benchmark/test-route-457
+    controller: App\Controller\UndefinedController
+test-route-458:
+    path: /benchmark/test-route-458
+    controller: App\Controller\UndefinedController
+test-route-459:
+    path: /benchmark/test-route-459
+    controller: App\Controller\UndefinedController
+test-route-460:
+    path: /benchmark/test-route-460
+    controller: App\Controller\UndefinedController
+test-route-461:
+    path: /benchmark/test-route-461
+    controller: App\Controller\UndefinedController
+test-route-462:
+    path: /benchmark/test-route-462
+    controller: App\Controller\UndefinedController
+test-route-463:
+    path: /benchmark/test-route-463
+    controller: App\Controller\UndefinedController
+test-route-464:
+    path: /benchmark/test-route-464
+    controller: App\Controller\UndefinedController
+test-route-465:
+    path: /benchmark/test-route-465
+    controller: App\Controller\UndefinedController
+test-route-466:
+    path: /benchmark/test-route-466
+    controller: App\Controller\UndefinedController
+test-route-467:
+    path: /benchmark/test-route-467
+    controller: App\Controller\UndefinedController
+test-route-468:
+    path: /benchmark/test-route-468
+    controller: App\Controller\UndefinedController
+test-route-469:
+    path: /benchmark/test-route-469
+    controller: App\Controller\UndefinedController
+test-route-470:
+    path: /benchmark/test-route-470
+    controller: App\Controller\UndefinedController
+test-route-471:
+    path: /benchmark/test-route-471
+    controller: App\Controller\UndefinedController
+test-route-472:
+    path: /benchmark/test-route-472
+    controller: App\Controller\UndefinedController
+test-route-473:
+    path: /benchmark/test-route-473
+    controller: App\Controller\UndefinedController
+test-route-474:
+    path: /benchmark/test-route-474
+    controller: App\Controller\UndefinedController
+test-route-475:
+    path: /benchmark/test-route-475
+    controller: App\Controller\UndefinedController
+test-route-476:
+    path: /benchmark/test-route-476
+    controller: App\Controller\UndefinedController
+test-route-477:
+    path: /benchmark/test-route-477
+    controller: App\Controller\UndefinedController
+test-route-478:
+    path: /benchmark/test-route-478
+    controller: App\Controller\UndefinedController
+test-route-479:
+    path: /benchmark/test-route-479
+    controller: App\Controller\UndefinedController
+test-route-480:
+    path: /benchmark/test-route-480
+    controller: App\Controller\UndefinedController
+test-route-481:
+    path: /benchmark/test-route-481
+    controller: App\Controller\UndefinedController
+test-route-482:
+    path: /benchmark/test-route-482
+    controller: App\Controller\UndefinedController
+test-route-483:
+    path: /benchmark/test-route-483
+    controller: App\Controller\UndefinedController
+test-route-484:
+    path: /benchmark/test-route-484
+    controller: App\Controller\UndefinedController
+test-route-485:
+    path: /benchmark/test-route-485
+    controller: App\Controller\UndefinedController
+test-route-486:
+    path: /benchmark/test-route-486
+    controller: App\Controller\UndefinedController
+test-route-487:
+    path: /benchmark/test-route-487
+    controller: App\Controller\UndefinedController
+test-route-488:
+    path: /benchmark/test-route-488
+    controller: App\Controller\UndefinedController
+test-route-489:
+    path: /benchmark/test-route-489
+    controller: App\Controller\UndefinedController
+test-route-490:
+    path: /benchmark/test-route-490
+    controller: App\Controller\UndefinedController
+test-route-491:
+    path: /benchmark/test-route-491
+    controller: App\Controller\UndefinedController
+test-route-492:
+    path: /benchmark/test-route-492
+    controller: App\Controller\UndefinedController
+test-route-493:
+    path: /benchmark/test-route-493
+    controller: App\Controller\UndefinedController
+test-route-494:
+    path: /benchmark/test-route-494
+    controller: App\Controller\UndefinedController
+test-route-495:
+    path: /benchmark/test-route-495
+    controller: App\Controller\UndefinedController
+test-route-496:
+    path: /benchmark/test-route-496
+    controller: App\Controller\UndefinedController
+test-route-497:
+    path: /benchmark/test-route-497
+    controller: App\Controller\UndefinedController
+test-route-498:
+    path: /benchmark/test-route-498
+    controller: App\Controller\UndefinedController
+test-route-499:
+    path: /benchmark/test-route-499
+    controller: App\Controller\UndefinedController
