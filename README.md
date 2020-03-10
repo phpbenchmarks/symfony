@@ -6,7 +6,7 @@
 
 ## What is www.phpbenchmarks.com?
 
-You will find lot of benchmarks for PHP frameworks and template engines on [phpbenchmarks.com](http://www.phpbenchmarks.com).
+You will find a lot of benchmarks for PHP and PHP libraries on [phpbenchmarks.com](http://www.phpbenchmarks.com).
 
 Benchmarks results are available from PHP 5.6 to latest version.
 
@@ -17,8 +17,6 @@ Our benchmarking protocol is available on [benchmarking protocol page](http://ww
 It contains Symfony benchmark code.
 
 Switch branch to select version and benchmark you want to see.
-
-You can find source code links into [Configuration::getSourceCodeUrls()](.phpbenchmarks/Configuration.php).
 
 ## Benchmarks
 
@@ -33,12 +31,14 @@ Go to [community page](http://www.phpbenchmarks.com/en/community) to see the Hal
 
 ## How version works?
 
-We do not follow semantic version for this repository. Here is an explanation about our versioning system:
+We do not follow semantic version for this repository.
 
-`W` Benchmarked framework major version
+Here is an explanation about our versioning system:
 
-`X` Benchmarked framework minor version
+`X.Y.Z_benchmark-slug_W`
 
-`Y` Benchmarked framework patch version
-
-`Z` Benchmark type: `1` Hello World, `3` REST API
+* `X`: Symfony major version.
+* `Y`: Symfony minor version.
+* `Z`: Symfony patch version.
+* `benchmark-slug`: slug of the benchmark, list available on [documentation page](http://www.phpbenchmarks.com/en/documentation).
+* `W`: benchmark version

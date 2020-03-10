@@ -1,0 +1,13 @@
+component:
+    id: 2
+benchmark:
+    type: 1
+    relativeUrl: /benchmark/helloworld
+sourceCode:
+    entryPoint: public/index.php
+    urls:
+        route: 'https://github.com/phpbenchmarks/symfony/blob/4.4.5_hello-world_0/config/routes.yaml'
+        controller: 'https://github.com/phpbenchmarks/symfony/blob/4.4.5_hello-world_0/src/Controller/HelloWorldController.php'
+coreDependency:
+    name: symfony/framework-bundle
+    version: 4.4.5
